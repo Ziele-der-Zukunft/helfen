@@ -1,0 +1,9 @@
+.main-content {
+    @include tablet {
+    background-image: var(--gra), url(../images/123.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+}

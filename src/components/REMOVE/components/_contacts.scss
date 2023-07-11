@@ -1,0 +1,33 @@
+.contacts-list {
+    @extend %list;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.contacts-list__link {
+    @extend %link;
+    display: flex;
+    column-gap: 6px;
+    align-items: center;
+    color: var(--black-text-color);
+    font-weight: 500;
+
+    @extend %link;
+    color: var(--text-and-primary-bg-white-color);
+    display: flex;
+    justify-content: center;
+
+    @include mobile {
+        justify-content: left;
+    }
+    
+    &:hover,
+    &:focus {
+        color: var(--accent-color-2);
+    }
+}
+
+.contacts-list__icon {
+    fill: currentColor;
+}

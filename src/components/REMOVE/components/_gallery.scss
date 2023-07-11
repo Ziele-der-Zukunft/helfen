@@ -1,0 +1,38 @@
+.gallery {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.gallery__thumb {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-set {
+    @extend %list;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    @include desktop {
+        gap: 30px;
+    }
+}
+
+.gallery-item {
+    
+    // display: flex;
+    // justify-content: center;
+}
+
+.desktop-hidden {
+    @include tablet {
+    display: none;
+    }
+}
+
+.gallery-photo {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;   
+
+}

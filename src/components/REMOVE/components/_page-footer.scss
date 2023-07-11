@@ -1,0 +1,31 @@
+.page-footer {
+  background-color: var(--second-bg-color);
+  padding-top: 30px;
+  padding-bottom: 40px;
+
+  @include mobile {
+    padding-bottom: 30px;
+  }
+
+  @include tablet {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+.page-footer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+
+  @include mobile {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  @include tablet {
+    column-gap: 0;
+    justify-content: space-evenly;
+  }
+}

@@ -1,0 +1,32 @@
+.banking {
+    padding-top: 15px;
+    background-color: var(--second-bg-color);
+}
+.banking__iban {
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--text-and-primary-bg-white-color);
+}
+.banking__iban--accent {
+    color: var(--accent-color-2);
+    text-decoration: none;
+}
+.banking__thumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+}
+.donate {
+    @extend %link;
+    text-align: center;
+    color: var(--text-and-primary-bg-white-color);
+}
+.donate__icon {
+    fill: var(--text-and-primary-bg-white-color);
+}
+.donate__icon:hover,
+.donate__icon:focus {
+    fill: var(--accent-color-2);
+}

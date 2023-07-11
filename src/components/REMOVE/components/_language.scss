@@ -1,0 +1,76 @@
+.language {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.language__container {
+    padding-top: 20vh;
+    padding-bottom: 25vh;
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/world_ukraine.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.language-list {
+    @extend %list;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+// .language-list__item {}
+
+.language-list__link {
+    @extend %link;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: calc(28/23);
+    color: var(--black-text-color);
+    letter-spacing: 0.02em;
+
+    @media screen and (min-width: 380px) {
+        font-size: 26px;
+        line-height: calc(30/26);
+        letter-spacing: 0.03em;
+    }
+    @media screen and (min-width: 480px) {
+        font-size: 32px;
+        line-height: calc(36/32);
+        letter-spacing: 0.05em;
+    }
+    
+    &:hover,
+    &:focus {
+        color: var(--accent-color-1);
+    }
+}
+
+.language-list__flag {
+    min-width: 40px;
+    min-height: 30px;
+    margin-right: 6px;
+
+    @include tablet {
+        margin-right: 10px;
+    }
+}
+
+.page-language {
+    @extend %list;
+    display: flex;
+    gap: 5px;
+
+    @include tablet {
+        flex-direction: row;
+        column-gap: 5px;
+        row-gap: 0;
+    }
+}
+.page-language__link {
+    @extend %link;
+}

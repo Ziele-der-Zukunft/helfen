@@ -1,0 +1,10 @@
+.our-goal {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--text-and-primary-bg-white-color);
+
+    @include tablet {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
