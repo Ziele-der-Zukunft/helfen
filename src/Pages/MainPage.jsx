@@ -1,4 +1,4 @@
-import { MainPageText } from './HomePage.styled';
+import { MainPageText } from './MainPage.styled';
 
 const MainPage = () => {
   return (

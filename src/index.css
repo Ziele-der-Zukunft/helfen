@@ -1,6 +1,6 @@
 @import-normalize; /* bring in normalize.css styles */
 
-:root {
+/* :root {
   --first-text-color: #2b196d;
   --second-text-color: green;
   --accent-color: #bb6b02;
@@ -10,8 +10,8 @@
     1px 4px 6px rgba(0, 0, 0, 0.16);
   --box-shadow-inset: inset 2px 0 2px rgba(0, 0, 0, 0.16);
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-/* :root {
+} */
+:root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color-1: #2196f3;
@@ -23,7 +23,7 @@
   --svg-color: #afb1b8;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   --gra: linear-gradient(rgba(47, 48, 58, 0.7), rgba(47, 48, 58, 0.7));
-} */
+}
 
 h1,
 h2,
@@ -31,12 +31,17 @@ h3,
 h4,
 h5,
 h6,
-p,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 body {
