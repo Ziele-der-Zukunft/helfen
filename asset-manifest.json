@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/helfen/static/css/main.b980a123.css",
+    "main.js": "/helfen/static/js/main.c992fdac.js",
+    "static/media/world_ukraine.svg": "/helfen/static/media/world_ukraine.93bd88323ac6af9b6b4f0b2cb45bf078.svg",
+    "index.html": "/helfen/index.html",
+    "main.b980a123.css.map": "/helfen/static/css/main.b980a123.css.map",
+    "main.c992fdac.js.map": "/helfen/static/js/main.c992fdac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b980a123.css",
+    "static/js/main.c992fdac.js"
+  ]
+}
