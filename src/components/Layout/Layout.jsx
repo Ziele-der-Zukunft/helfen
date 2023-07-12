@@ -1,6 +1,8 @@
 import React, { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
-import {Container, Wrap} from './Layout.styled';
+import {Container, 
+  // Wrap
+} from './Layout.styled';
 import Header from '../Header/Header';
 import Footer from "../Footer/Footer"
 
@@ -9,11 +11,11 @@ const Layout = () => {
     <>
     <Container>
       <Header />
-      <Wrap>
+      {/* <Wrap> */}
         <Suspense fallback={<div>Loading...</div>}>
           <Outlet />
         </Suspense>
-      </Wrap>
+      {/* </Wrap> */}
       <Footer />
     </Container>
     </>
