@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
-import worldUkraine from "../images/world_ukraine.svg"
+import worldUkraine from '../../images/world_ukraine.svg';
 
 export const Page = styled.section`
   padding-top: 40px;
@@ -44,6 +44,7 @@ export const Link = styled(NavLink)`
   line-height: calc(28 / 23);
   color: var(--black-text-color);
   letter-spacing: 0.02em;
+  box-shadow: var(--box-shadow);
 
   @media screen and (min-width: 380px) {
     font-size: 26px;
@@ -63,17 +64,18 @@ export const Link = styled(NavLink)`
 `;
 
 export const LogoPageIcons = styled.svg`
-    min-width: 40px;
-    min-height: 30px;
-    margin-right: 6px;
+  min-width: 40px;
+  min-height: 30px;
+  margin-right: 6px;
 
-    @include tablet {
-        margin-right: 10px;
-    }
-`
+  @include tablet {
+    margin-right: 10px;
+  }
+`;
 // export const IconFlag = styled.use`
-
-// `
+//   width: 40px;
+//   height: 30px;
+// `;
 
 // .page-language {
 //     @extend %list;
