@@ -19,7 +19,7 @@ export const Link = styled(NavLink)`
   &.active {
     border-radius: 5px;
     border-color: inherit;
-    background-color: var(--background-color);
+    background-color: var(--bg-color);
     box-shadow: var(--box-shadow-inset);
   }
   &:hover {

@@ -4,7 +4,7 @@ import {Container,
   // Wrap
 } from './Layout.styled';
 import Header from '../Header/Header';
-import Footer from "../Footer/Footer"
+// import Footer from "../Footer/Footer"
 
 const Layout = () => {
   return (
@@ -16,7 +16,7 @@ const Layout = () => {
           <Outlet />
         </Suspense>
       {/* </Wrap> */}
-      <Footer />
+      {/* <Footer /> */}
     </Container>
     </>
   );

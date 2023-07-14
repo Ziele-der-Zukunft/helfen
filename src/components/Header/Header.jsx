@@ -1,5 +1,6 @@
 import {HeaderComponent} from "./Header.styled"
-import Navbar from "components/NavBar/NavBar";
+import Navbar from "components/Header/NavBar/NavBar";
+import LangBar from "components/Header/LangBar/LangBar";
 
 const Header = () => {
     return (
@@ -7,6 +8,7 @@ const Header = () => {
         <Navbar />
         {/* <NavBar />
         {isLoggedIn ? <UserMenu /> : <AuthNav />} */}
+        <LangBar />
       </HeaderComponent>
     );
   };

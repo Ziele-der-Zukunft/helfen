@@ -1,5 +1,5 @@
-@import-normalize; /* bring in normalize.css styles */
-/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap'); */
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
 /* :root {
   --first-text-color: #2b196d;
@@ -12,11 +12,12 @@
   :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
+  --text-color: #ffffff;
+  --black-text-color: #000000;
   --accent-color-1: #2196f3;
   --accent-color-2: #9ecb09;
-  --text-and-primary-bg-white-color: #ffffff;
+  --primary-bg-white-color: #ffffff;
   --second-bg-color: #2f303a;
-  --black-text-color: #000000;
   --bg-color: #c4c4c4;
   --svg-color: #afb1b8;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -47,7 +48,7 @@ ul {
 
 body {
   margin: 0;
-  font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
     'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
