@@ -1,9 +1,12 @@
-import Header from '../components/Header/Header';
+import Header from '../../components/Header/Header';
+import Gallery from './Gallery/Gallery';
+
+
 const ProjectBooksPage = () => {
     return (
       <>
       <Header />
-          <p>ProjectBooksPage!!!!!!!</p>  
+      <Gallery/>  
       </>
     );
   };

@@ -2,8 +2,8 @@ import { Routes, Route } from 'react-router-dom';
 import LogoPage from '../Pages/LogoPage/LogoPage';
 // import Layout from './Layout/Layout';
 import MainPage from '../Pages/MainPage/MainPage';
-import ProjectsPage from '../Pages/ProjectsPage';
-import ContactsPage from '../Pages/ContactsPage';
+import ProjectsPage from '../Pages/ProjectsPage/ProjectsPage';
+import ContactsPage from '../Pages/ContactsPage/ContactsPage';
 
 export const App = () => {
   return (

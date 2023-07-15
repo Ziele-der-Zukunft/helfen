@@ -2,35 +2,35 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.gallery__thumb {
+.galleryThumb {
+    margin-top: 5px;
     display: flex;
     justify-content: center;
 }
 
-.gallery-set {
+.galleryList {
     @extend %list;
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    gap: 30px;
 
     @include desktop {
         gap: 30px;
     }
 }
 
-.galleryItem {
+/* .gallery-item {
     
-    display: flex;
-    justify-content: center;
-}
+    // display: flex;
+    // justify-content: center;
+} */
 
-.desktop-hidden {
+/* .desktopHidden {
     @include tablet {
     display: none;
     }
-}
+} */
 
-.gallery-photo {
+.galleryPhoto {
     display: block;
     max-width: 100%;
     object-fit: cover;   

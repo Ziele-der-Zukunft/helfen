@@ -15,12 +15,15 @@ export const LogoPageContainer = styled.div`
   justify-content: center;
   background: url(${worldUkraine}) no-repeat center;
   background-size: contain;
-`;
+  `;
 
 export const LogoPageList = styled.ul`
+padding: 5px;
   display: flex;
   flex-direction: column;
   row-gap: 30px;
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
 `;
 export const LogoPageItem = styled.li``;
 
@@ -44,7 +47,6 @@ export const Link = styled(NavLink)`
   line-height: calc(28 / 23);
   color: var(--black-text-color);
   letter-spacing: 0.02em;
-  box-shadow: var(--box-shadow);
 
   @media screen and (min-width: 380px) {
     font-size: 26px;

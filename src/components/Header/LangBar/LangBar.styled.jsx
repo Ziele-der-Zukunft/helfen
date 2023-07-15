@@ -20,7 +20,6 @@ export const Link = styled(NavLink)`
 export const LangFlagIcon = styled.svg`
   min-width: 40px;
   min-height: 30px;
-  /* margin-right: 6px; */
 
   @include tablet {
     margin-right: 10px;
