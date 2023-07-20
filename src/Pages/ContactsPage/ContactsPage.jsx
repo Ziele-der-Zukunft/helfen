@@ -1,9 +1,14 @@
+import Banking from 'components/Banking/Banking';
 import Header from '../../components/Header/Header';
+import Title from 'components/Title/Title';
+
+
 const ContactsPage = () => {
     return (
       <>
+      <Title />
       <Header />
-          <p>ContactsPage!!!!!!!</p>  
+      <Banking />
       </>
     );
   };

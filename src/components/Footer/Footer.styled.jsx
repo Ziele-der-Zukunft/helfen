@@ -6,6 +6,6 @@ export const FooterComponent = styled.div`
   justify-content: space-between;
   align-items: center;
   width: auto;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   background-color: var(--primary-bg-white-color);
 `;
