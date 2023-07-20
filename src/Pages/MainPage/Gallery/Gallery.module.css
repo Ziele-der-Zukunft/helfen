@@ -11,10 +11,10 @@
 .galleryList {
     @extend %list;
     display: flex;
-    gap: 30px;
+    gap: 20px;
 
     @include desktop {
-        gap: 30px;
+        gap: 20px;
     }
 }
 

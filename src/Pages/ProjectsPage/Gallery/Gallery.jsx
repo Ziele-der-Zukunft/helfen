@@ -11,7 +11,7 @@ const Gallery = () => {
         <li className={css.galleryItem}>
           <img
             src={photo2}
-            alt="люди вишикувались в чергу щоб отримати їжу"
+            alt="people lined up to get food"
             className={css.galleryPhoto}
             width="600"
           />
@@ -19,7 +19,7 @@ const Gallery = () => {
         <li className={css.galleryItem}>
           <img
             src={photo3}
-            alt="волонтери, які роздають їжу"
+            alt="volunteers who distribute food"
             className={css.galleryPhoto}
             width="600"
           />
@@ -27,7 +27,7 @@ const Gallery = () => {
         <li className={css.galleryItem}>
           <img
             src={photo4}
-            alt="люди в черзі для отримання допомоги"
+            alt="people waiting in line to receive assistance"
             className={css.galleryPhoto}
             width="600"
           />
@@ -35,7 +35,7 @@ const Gallery = () => {
         <li className={css.galleryItem}>
           <img
             src={photo7}
-            alt="мітинг на підтримку україни"
+            alt="a rally in support of ukraine"
             className={css.galleryPhoto}
             width="600"
           />

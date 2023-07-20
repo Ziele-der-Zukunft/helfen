@@ -3,6 +3,7 @@
     padding-bottom: 15px;
 }
 .galleryThumb {
+    margin-top: 5px;
     display: flex;
     justify-content: center;
 }
@@ -11,11 +12,7 @@
     @extend %list;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-
-    @include desktop {
-        gap: 30px;
-    }
+    gap: 5px;
 }
 
 /* .gallery-item {

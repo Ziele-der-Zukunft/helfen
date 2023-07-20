@@ -11,7 +11,7 @@ const Gallery = () => {
             }>
           <img
             src={photo1}
-            alt="багатоповерховий будинок зі слідами влучань російських ракет"
+            alt="a multi-storey building with traces of Russian missile hits"
             className={css.galleryPhoto}
             width="350" height="500"
           />
@@ -19,7 +19,7 @@ const Gallery = () => {
         <li className={css.galleryItem}>
           <img
             src={photo2}
-            alt="зруйнований будинок"
+            alt="house destroyed by Russian terrorists"
             className={css.galleryPhoto}
             width="350" height="500"
           />
