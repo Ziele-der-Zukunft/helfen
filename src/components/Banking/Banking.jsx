@@ -59,7 +59,7 @@ const Banking = () => {
     return (
     <div className={css.banking}>
         <h2 className={css.visuallyHidden}>Unterstützen Sie unsere Stiftung</h2>
-        <p className="bankingIban">
+        <p className={css.bankingIban}>
           Sparkasse Mittelthüringen: (IBAN:{' '}
           <span className={css.bankingIbanAccent}>
             DE 1282 0510 0001 6315 1105

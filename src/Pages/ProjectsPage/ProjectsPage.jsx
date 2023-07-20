@@ -3,7 +3,7 @@ import Header from '../../components/Header/Header';
 import Gallery from './Gallery/Gallery';
 
 
-const ProjectBooksPage = () => {
+const ProjectPage = () => {
     return (
       <>
       <Header />
@@ -13,4 +13,4 @@ const ProjectBooksPage = () => {
     );
   };
   
-  export default ProjectBooksPage;
+  export default ProjectPage;
