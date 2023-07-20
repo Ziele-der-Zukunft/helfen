@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/helfen/static/css/main.f6c82610.css",
-    "main.js": "/helfen/static/js/main.02eb35f7.js",
+    "main.css": "/helfen/static/css/main.50d6dbbe.css",
+    "main.js": "/helfen/static/js/main.42a0af07.js",
     "static/media/photo_7.jpg": "/helfen/static/media/photo_7.6511384d93389275e12a.jpg",
     "static/media/photo_2.jpg": "/helfen/static/media/photo_2.67faa22c0bec69c7dc29.jpg",
     "static/media/photo_4.jpg": "/helfen/static/media/photo_4.9ea43d09055cea4bef40.jpg",
@@ -11,11 +11,11 @@
     "static/media/russia_is_a_terrorist_state.jpg": "/helfen/static/media/russia_is_a_terrorist_state.fa25b7237cd1f5ef31e8.jpg",
     "static/media/icons.svg": "/helfen/static/media/icons.29e260a95f3fc77f5760c0ce7340cc7b.svg",
     "index.html": "/helfen/index.html",
-    "main.f6c82610.css.map": "/helfen/static/css/main.f6c82610.css.map",
-    "main.02eb35f7.js.map": "/helfen/static/js/main.02eb35f7.js.map"
+    "main.50d6dbbe.css.map": "/helfen/static/css/main.50d6dbbe.css.map",
+    "main.42a0af07.js.map": "/helfen/static/js/main.42a0af07.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6c82610.css",
-    "static/js/main.02eb35f7.js"
+    "static/css/main.50d6dbbe.css",
+    "static/js/main.42a0af07.js"
   ]
 }
