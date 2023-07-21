@@ -1,0 +1,43 @@
+.ourContacts {
+    margin-top: 5px;
+    padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  border-radius: 5px;
+  background-color: var(--primary-bg-white-color);
+}
+
+.contactsList {
+    /* @extend %list; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.contactsListLink {
+    /* @extend %link; */
+    display: flex;
+    column-gap: 6px;
+    align-items: center;
+    color: var(--black-text-color);
+    font-weight: 500;
+
+    /* @extend %link; */
+    display: flex;
+    justify-content: center;
+
+    /* @include mobile {
+        justify-content: left;
+    } */
+    
+    &:hover,
+    &:focus {
+        color: var(--accent-color-2);
+    }
+}
+
+.contactsListIcon {
+    fill: currentColor;
+}
