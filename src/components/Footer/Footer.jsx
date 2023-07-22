@@ -1,11 +1,11 @@
-import {FooterComponent} from "./Footer.styled"
+import css from "./Footer.module.css"
 
 const Footer = () => {
     return (
-      <FooterComponent>
+      <div className={css.footer}>
         {/* <NavBar />
         {isLoggedIn ? <UserMenu /> : <AuthNav />} */}
-      </FooterComponent>
+      </div>
     );
   };
   export default Footer;

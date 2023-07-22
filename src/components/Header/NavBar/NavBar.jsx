@@ -1,28 +1,33 @@
 import { useSelector } from 'react-redux';
-import { Navbar, Link } from './NavBar.styled';
+import css from './NavBar.module.css';
+import { NavLink } from 'react-router-dom';
 
-const NavBar = () => {
+const NavBarComp = () => {
   const language = useSelector(state => state.language);
   return (
-    <Navbar>
-      <Link to="/startseite">
-        {language === 'en'
-          ? `Main`
+    <nav className={css.navBar}>
+      <NavLink className={css.navBarLink} to="/startseite">
+        {language === 'de'
+          ? `Startseite`
           : language === 'ua'
           ? `Головна`
-          : `Startseite`}
-      </Link>
-      <Link to="/projekte">{language === 'en'
-          ? `Projects`
+          : `Main`}
+      </NavLink>
+      <NavLink className={css.navBarLink} to="/projekte">
+        {language === 'de'
+          ? `Projekte`
           : language === 'ua'
           ? `Проєкти`
-          : `Projekte`}</Link>
-      <Link to="/kontakte">{language === 'en'
-          ? `Contacts`
+          : `Projects`}
+      </NavLink>
+      <NavLink className={css.navBarLink} to="/kontakte">
+        {language === 'de'
+          ? `Kontakte`
           : language === 'ua'
           ? `Контакти`
-          : `Kontakte`}</Link>
-    </Navbar>
+          : `Contacts`}
+      </NavLink>
+    </nav>
   );
 };
-export default NavBar;
+export default NavBarComp;

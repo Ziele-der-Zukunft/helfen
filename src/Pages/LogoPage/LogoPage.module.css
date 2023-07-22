@@ -1,38 +1,29 @@
-import styled from '@emotion/styled';
-import { NavLink } from 'react-router-dom';
-import worldUkraine from '../../images/world_ukraine.svg';
-
-export const Page = styled.section`
+.page{
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: var(--bg-color);
-`;
-
-export const LogoPageContainer = styled.div`
+}
+  
+.logoPageContainer{
   padding-top: 20vh;
   padding-bottom: 25vh;
   display: flex;
   justify-content: center;
-  background: url(${worldUkraine}) no-repeat center;
+  background: url(../../images/world_ukraine.svg) no-repeat center;
   background-size: contain;
-  `;
-
-export const LogoPageList = styled.ul`
-padding: 5px;
+}
+  
+.logoPageList{
+  padding: 5px;
   display: flex;
   flex-direction: column;
   row-gap: 30px;
   box-shadow: var(--box-shadow);
   border-radius: 5px;
-`;
-export const LogoPageItem = styled.li``;
+}
 
-export const Link = styled(NavLink)`
-  color: var(--primary-text-color);
-  // font-weight: 500;
-  // font-size: 14px;
-  // line-height: 1.14;
-  // letter-spacing: 0.02em;
+
+.logoPageLink{
   text-decoration: none;
 
   transition-property: color;
@@ -63,33 +54,14 @@ export const Link = styled(NavLink)`
   &:focus {
     color: var(--accent-color-1);
   }
-`;
+}
 
-export const LogoPageIcons = styled.svg`
+.logoPageIcons{
   min-width: 40px;
   min-height: 30px;
   margin-right: 6px;
 
-  @include tablet {
+  /* @include tablet {
     margin-right: 10px;
-  }
-`;
-// export const IconFlag = styled.use`
-//   width: 40px;
-//   height: 30px;
-// `;
-
-// .page-language {
-//     @extend %list;
-//     display: flex;
-//     gap: 5px;
-
-//     @include tablet {
-//         flex-direction: row;
-//         column-gap: 5px;
-//         row-gap: 0;
-//     }
-// }
-// .page-language__link {
-//     @extend %link;
-// }
+  } */
+}

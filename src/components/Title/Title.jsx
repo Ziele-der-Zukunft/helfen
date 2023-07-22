@@ -9,16 +9,16 @@ const Title = () => {
   return (
     <Helmet>
       <title>
-        {language === 'en'
-          ? 'FUTURE GOALS'
+        {language === 'de'
+          ? 'ZIELE DER ZUKUNFT'
           : language === 'ua'
           ? 'ЦІЛІ МАЙБУТНЬОГО'
-          : 'ZIELE DER ZUKUNFT'}
+          : 'FUTURE GOALS'}
       </title>
       <link
         rel="icon"
         type="image/svg"
-        href={language === 'en' ? en : language === 'ua' ? ua : de}
+        href={language === 'de' ? de : language === 'ua' ? ua : en}
         sizes="32x32"
       />
     </Helmet>

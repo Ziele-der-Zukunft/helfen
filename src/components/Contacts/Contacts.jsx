@@ -11,11 +11,11 @@ const Contacts = () => {
           <a href="https://goo.gl/maps/mAYefMfu98Q5EfXE6" target="_blank" rel="noopener noreferrer nofollow" className={css.contactsListLink}>
             <svg width="16" height="22" className={css.contactsListIcon}>
               <use href={`${sprite}#geolocation`}></use>
-            </svg> {language === 'en'
-              ? `99084 Erfurt, Germany`
+            </svg> {language === 'de'
+              ? `99084 Erfurt`
               : language === 'ua'
               ? `99084 Ерфурт, Німеччина`
-              : `99084 Erfurt`}
+              : `99084 Erfurt, Germany`}
           </a>
         </li>
         <li className={css.contactsListItem}>

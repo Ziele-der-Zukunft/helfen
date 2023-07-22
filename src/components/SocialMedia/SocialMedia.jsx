@@ -1,11 +1,18 @@
 import css from "./SocialMedia.module.css"
+import sprite from '../../images/icons.svg'
+import { useSelector } from "react-redux"
 
 const SocialMedia = () => {
+  const language = useSelector(state => state.language);
   return (
     <div className={css.socialMedia}>
-      <span className={css.socialMediaProposal}>приєднуйтесь</span>
+      <span className={css.socialMediaProposal}>{language === 'de'
+              ? `engagieren sie sich`
+              : language === 'ua'
+              ? `приєднуйтесь`
+              : `join us`}</span>
       <ul className={css.socialList}>
-        <li className={css.socialListIitem}>
+        <li className={css.socialListItem}>
           <a
             href="https://www.instagram.com/ziele_der_zukunft/?igshid=YmMyMTA2M2Y%3D"
             target="_blank"
@@ -13,7 +20,7 @@ const SocialMedia = () => {
             className={css.socialListLink}
           >
             <svg width="20" height="20">
-              <use href="./images/icons.svg#instagram"></use>
+              <use href={`${sprite}#instagram`}></use>
             </svg>
           </a>
         </li>
@@ -25,7 +32,7 @@ const SocialMedia = () => {
             className={css.socialListLink}
           >
             <svg width="20" height="20">
-              <use href="./images/icons.svg#facebook"></use>
+              <use href={`${sprite}#facebook`}></use>
             </svg>
           </a>
         </li>

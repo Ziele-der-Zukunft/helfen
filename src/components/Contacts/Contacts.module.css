@@ -1,6 +1,4 @@
 .ourContacts {
-    margin-top: 5px;
-    padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,18 +8,21 @@
 }
 
 .contactsList {
-    /* @extend %list; */
     display: flex;
     flex-direction: column;
     row-gap: 15px;
 }
 
 .contactsListLink {
-    /* @extend %link; */
+    padding: 0;
+
     display: flex;
     column-gap: 6px;
     align-items: center;
     color: var(--black-text-color);
+    font-size: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.02;
     font-weight: 500;
 
     /* @extend %link; */

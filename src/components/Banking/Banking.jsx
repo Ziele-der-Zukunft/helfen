@@ -4,9 +4,9 @@ import css from './Banking.module.css';
 
 const Banking = () => {
   const language = useSelector(state => state.language);
-  if (language === 'en') {
+  if (language === 'de') {
     return (<div className={css.banking}>
-        <h2 className={css.visuallyHidden}>Support our foundation</h2>
+        <h2 className={css.visuallyHidden}>Unterstützen Sie unsere Stiftung</h2>
         <p className={css.bankingIban}>
           Sparkasse Mittelthüringen: (IBAN:{' '}
           <span className={css.bankingIbanAccent}>
@@ -16,7 +16,7 @@ const Banking = () => {
         </p>
         <div className={css.bankingThumb}>
           <p className={css.donate}>
-            Support our foundation through the platform
+            Unterstützen Sie unsere Stiftung über die Plattform
           </p>
           <a
             href="https://www.betterplace.org/de/projects/117908?utm_campaign=email-notifications&utm_medium=betterplace-org--p117908&utm_source=project_manager_notifier-project_activated_message"
@@ -29,8 +29,8 @@ const Banking = () => {
             </svg>
           </a>
         </div>
-    </div>)
-    
+    </div>
+    )
   } else if (language === 'ua') {
     return (<div className={css.banking}>
         <h2 className={css.visuallyHidden}>Допомога фонду</h2>
@@ -58,7 +58,7 @@ const Banking = () => {
   } else {
     return (
     <div className={css.banking}>
-        <h2 className={css.visuallyHidden}>Unterstützen Sie unsere Stiftung</h2>
+        <h2 className={css.visuallyHidden}>Support our foundation</h2>
         <p className={css.bankingIban}>
           Sparkasse Mittelthüringen: (IBAN:{' '}
           <span className={css.bankingIbanAccent}>
@@ -68,7 +68,7 @@ const Banking = () => {
         </p>
         <div className={css.bankingThumb}>
           <p className={css.donate}>
-            Unterstützen Sie unsere Stiftung über die Plattform
+            Support our foundation through the platform
           </p>
           <a
             href="https://www.betterplace.org/de/projects/117908?utm_campaign=email-notifications&utm_medium=betterplace-org--p117908&utm_source=project_manager_notifier-project_activated_message"

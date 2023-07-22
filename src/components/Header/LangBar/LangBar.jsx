@@ -1,4 +1,5 @@
-import { LangList, LangItem, Link, LangFlagIcon } from './LangBar.styled';
+import css from './LangBar.module.css';
+import { Link } from 'react-router-dom';
 import sprite from '../../../images/icons.svg'
 import { useDispatch, 
     // useSelector 
@@ -13,32 +14,32 @@ const LangBar = () => {
   };
 //   const language = useSelector(state => state.language);
   return (
-        <LangList>
-                {/* <LangItem>
+        <ul className={css.langList}>
+                {/* <li className={css.langItem}>
                     {`${language}`}
-                </LangItem> */}
-                <LangItem>
-                    <Link onClick={() => handleLanguageChange('en')}>
-                        <LangFlagIcon width="30" height="20">
+                </li> */}
+                <li className={css.langItem}>
+                    <Link className={css.link} onClick={() => handleLanguageChange('en')}>
+                        <svg className={css.langFlagIcon} width="30" height="20">
                             <use href={`${sprite}#usunitedstatesflag`}></use>
-                        </LangFlagIcon>
+                        </svg>
                     </Link>
-                </LangItem>
-                <LangItem >
-                    <Link onClick={() => handleLanguageChange('ua')}>
-                        <LangFlagIcon width="30" height="20">
+                </li>
+                <li className={css.langItem} >
+                    <Link className={css.link} onClick={() => handleLanguageChange('ua')}>
+                        <svg className={css.langFlagIcon} width="30" height="20">
                             <use href={`${sprite}#uaukraineflag`}></use>
-                        </LangFlagIcon>
+                        </svg>
                     </Link>
-                </LangItem>
-                <LangItem >
-                    <Link onClick={() => handleLanguageChange('de')}>
-                        <LangFlagIcon width="30" height="20">
+                </li>
+                <li className={css.langItem} >
+                    <Link className={css.link} onClick={() => handleLanguageChange('de')}>
+                        <svg className={css.langFlagIcon} width="30" height="20">
                              <use href={`${sprite}#degermanyflag`}></use>
-                        </LangFlagIcon>
+                        </svg>
                     </Link>
-                </LangItem>
-            </LangList>
+                </li>
+            </ul>
   );
 };
 export default LangBar;

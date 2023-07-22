@@ -1,6 +1,7 @@
 import { useDispatch } from 'react-redux';
-import { Page, LogoPageContainer, LogoPageList, LogoPageItem, Link, LogoPageIcons } from './LogoPage.styled';
+import { Link } from 'react-router-dom';
 import { setLanguage } from 'redux/languageSlice';
+import css from "./LogoPage.module.css"
 import sprite from '../../images/icons.svg'
 
 const LogoPage = () => {
@@ -11,33 +12,33 @@ const LogoPage = () => {
   };
   
   return (
-    <Page>
-      <LogoPageContainer>
-        <LogoPageList>
-          <LogoPageItem>
-          <Link to='/startseite' onClick={() => handleLanguageChange('en')}>
-            <LogoPageIcons width="40" height="30">
+    <section className={css.page}>
+      <div className={css.logoPageContainer}>
+        <ul className={css.logoPageList}>
+          <li className={css.logoPageItem}>
+          <Link className={css.logoPageLink} to='/startseite' onClick={() => handleLanguageChange('en')}>
+            <svg className={css.logoPageIcons} width="40" height="30">
                 <use href={`${sprite}#usunitedstatesflag`}></use>
-              </LogoPageIcons>
+              </svg>
               Future goals</Link>
-          </LogoPageItem>
-          <LogoPageItem>
-          <Link to='/startseite' onClick={() => handleLanguageChange('ua')}>
-            <LogoPageIcons width="40" height="30">
+          </li>
+          <li className={css.logoPageItem}>
+          <Link className={css.logoPageLink} to='/startseite' onClick={() => handleLanguageChange('ua')}>
+            <svg className={css.logoPageIcons} width="40" height="30">
                 <use href={`${sprite}#uaukraineflag`}></use>
-              </LogoPageIcons>
+              </svg>
               Цілі майбутнього</Link>
-          </LogoPageItem>
-          <LogoPageItem>
-          <Link to='/startseite' onClick={() => handleLanguageChange('de')}>
-            <LogoPageIcons width="40" height="30">
+          </li>
+          <li className={css.logoPageItem}>
+          <Link className={css.logoPageLink} to='/startseite' onClick={() => handleLanguageChange('de')}>
+            <svg className={css.logoPageIcons} width="40" height="30">
                 <use href={`${sprite}#degermanyflag`}></use>
-              </LogoPageIcons>
+              </svg>
               Ziele der zukunft</Link>
-          </LogoPageItem>
-        </LogoPageList>
-      </LogoPageContainer>
-    </Page>
+          </li>
+        </ul>
+      </div>
+    </section>
   );
 };
 
