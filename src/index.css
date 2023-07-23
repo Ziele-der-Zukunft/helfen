@@ -62,24 +62,20 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02;
   font-weight: 700;
-  /* transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function); */
   transition: color 200ms var(--timing-function);
   &.active {
     border-radius: 5px;
-    border-color: inherit;
     background-color: var(--bg-color);
     box-shadow: var(--box-shadow-inset);
   }
   &.active:hover {
-    color: var(--text-color);
+    color: var(--black-text-color);
   }
   &:hover {
     color: var(--accent-color-2);
   }
   &:active {
-    color: var(--second-text-color);
+    color: var(--accent-color-2);
   }
 }
 

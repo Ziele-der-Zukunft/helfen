@@ -1,27 +1,16 @@
 import css from './Gallery.module.css'
-import photo1 from "../../../images/russia_is_a_terrorist_state.jpg"
-import photo2 from "../../../images/123.jpg"
+import photo7 from "../../../images/photo_7.jpg"
 
 const Gallery = () => {
   return (
     <div className={css.galleryThumb}>
       <ul className={css.galleryList}>
-        <li className={css.galleryItem 
-            // css.desktop-hidden
-            }>
+      <li className={css.galleryItem}>
           <img
-            src={photo1}
-            alt="a multi-storey building with traces of Russian missile hits"
+            src={photo7}
+            alt="a rally in support of ukraine"
             className={css.galleryPhoto}
-            width="350" height="500"
-          />
-        </li>
-        <li className={css.galleryItem}>
-          <img
-            src={photo2}
-            alt="house destroyed by Russian terrorists"
-            className={css.galleryPhoto}
-            width="350" height="500"
+            width="400"
           />
         </li>
       </ul>
