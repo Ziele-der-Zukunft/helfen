@@ -4,6 +4,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     background-color: #fff;
+    flex-direction: column;
 }
+
+@media (min-width: 768px) {
+    .wrap {
+        flex-direction: row;
+        gap: 30px;
+    }
+  }

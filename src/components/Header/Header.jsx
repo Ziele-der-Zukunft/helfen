@@ -5,17 +5,14 @@ import MobileMenu from './MobileMenu/MobileMenu';
 import { useEffect, useState } from 'react';
 import { throttle } from 'lodash';
 
-
 const Header = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
-  
+
   useEffect(() => {
-    // Функція, яка буде викликатись при зміні розміру вікна
     const handleResize = throttle(() => {
-      setIsMobile(window.innerWidth <= 768);
+      setIsMobile(window.innerWidth < 768);
     }, 500);
 
-    // Додаю подію "resize" для вікна, щоб реагувати на зміни розміру
     window.addEventListener('resize', handleResize);
 
     return () => {
