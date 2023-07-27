@@ -4,28 +4,20 @@ import { NavLink } from 'react-router-dom';
 
 const NavBarComp = () => {
   const language = useSelector(state => state.language);
+  const mainPage = language === 'de' ? 'Startseite' : language === 'ua' ? 'Головна' : 'Main';
+  const projectsPage = language === 'de' ? 'Projekte' : language === 'ua' ? 'Проєкти' : 'Projects';
+  const contactsPage = language === 'de' ? 'Kontakte' : language === 'ua' ? 'Контакти' : 'Contacts';
+
   return (
     <nav className={css.navBar}>
       <NavLink className={css.navBarLink} to="/startseite">
-        {language === 'de'
-          ? `Startseite`
-          : language === 'ua'
-          ? `Головна`
-          : `Main`}
+        {mainPage}
       </NavLink>
       <NavLink className={css.navBarLink} to="/projekte">
-        {language === 'de'
-          ? `Projekte`
-          : language === 'ua'
-          ? `Проєкти`
-          : `Projects`}
+        {projectsPage}
       </NavLink>
       <NavLink className={css.navBarLink} to="/kontakte">
-        {language === 'de'
-          ? `Kontakte`
-          : language === 'ua'
-          ? `Контакти`
-          : `Contacts`}
+        {contactsPage}
       </NavLink>
     </nav>
   );

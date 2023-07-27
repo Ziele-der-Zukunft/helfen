@@ -1,0 +1,76 @@
+.mobMenu {
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  padding: 48px 40px;
+  overflow: hidden;
+  background-color: var(--primary-bg-white-color);
+  
+  transform: translateY(0);
+  transition: visibility 1500ms var(--timing-function),
+      opacity 3500ms var(--timing-function),
+      transform 3500ms var(--timing-function);
+}
+
+.mobMenu.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-100%);
+}
+
+.mobMenuNav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.openMobMenuBtn {
+  height: 30px;
+  padding: 0;
+  background-color: transparent;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  &:hover,
+  &:focus,
+  &:active {
+      fill: var(--accent-color-2);
+    }
+}
+
+.closeMobMenuBtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  outline: transparent;
+  background-color: transparent;
+  
+  cursor: pointer;
+  transition: fill 250ms var(--timing-function);
+  
+  &:hover,
+  &:focus,
+  &:active {
+      fill: var(--accent-color-2);
+    }
+}
+
+.mobMenuLink{
+  display: inline;
+}
