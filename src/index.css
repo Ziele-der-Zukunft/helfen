@@ -70,6 +70,7 @@ a {
   }
   &.active:hover {
     color: var(--black-text-color);
+    cursor: default;
   }
   &:hover {
     color: var(--accent-color-2);
