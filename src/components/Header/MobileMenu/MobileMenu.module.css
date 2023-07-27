@@ -72,5 +72,13 @@
 }
 
 .mobMenuLink{
+  font-size: 24px;
   display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+  &.active {
+    border-radius: 5px;
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow-inset);
+  }
 }
