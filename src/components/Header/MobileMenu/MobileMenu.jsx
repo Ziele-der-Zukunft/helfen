@@ -1,12 +1,12 @@
 import css from './MobileMenu.module.css';
 import { useSelector } from 'react-redux';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import sprite from '../../../images/icons.svg';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const MobileMenu = () => {
   const language = useSelector(state => state.language);
-
+  const location = useLocation();
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const mainPage =
@@ -24,6 +24,9 @@ const MobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
     document.body.style.overflow = isMobileMenuOpen ? 'auto' : 'hidden';
   };
+  useEffect(() => {
+    document.body.style.overflow = 'auto';
+  }, [location.pathname]);
 
   return (
     <>

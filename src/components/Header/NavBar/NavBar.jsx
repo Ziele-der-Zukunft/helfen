@@ -22,4 +22,5 @@ const NavBarComp = () => {
     </nav>
   );
 };
+
 export default NavBarComp;
