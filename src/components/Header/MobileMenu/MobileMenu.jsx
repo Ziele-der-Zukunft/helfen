@@ -22,6 +22,7 @@ const MobileMenu = () => {
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
+    document.body.style.overflow = isMobileMenuOpen ? 'auto' : 'hidden';
   };
 
   return (

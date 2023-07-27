@@ -4,12 +4,12 @@
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  /* bottom: 0; */
   
   padding: 48px 40px;
   overflow: hidden;
   background-color: var(--primary-bg-white-color);
-  
+  box-shadow: var(--box-shadow);
   transform: translateY(0);
   transition: visibility 1500ms var(--timing-function),
       opacity 3500ms var(--timing-function),
