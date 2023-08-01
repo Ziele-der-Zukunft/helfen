@@ -1,0 +1,35 @@
+.gallery {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.galleryThumb {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.galleryList {
+    @extend %list;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* .gallery-item {
+    
+    // display: flex;
+    // justify-content: center;
+} */
+
+/* .desktopHidden {
+    @include tablet {
+    display: none;
+    }
+} */
+
+.galleryPhoto {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;   
+
+}

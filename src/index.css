@@ -19,24 +19,6 @@
   --gra: linear-gradient(rgba(47, 48, 58, 0.7), rgba(47, 48, 58, 0.7));
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 @media (max-width: 768px) {
   body {
     scrollbar-width: none; /* Firefox */
@@ -59,7 +41,7 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 a {
@@ -87,6 +69,25 @@ a {
   &:active {
     color: var(--accent-color-2);
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* .visually-hidden {

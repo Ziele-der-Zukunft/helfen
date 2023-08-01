@@ -1,8 +1,11 @@
 import Banking from 'components/Banking/Banking';
 import Header from '../../components/Header/Header';
-import Gallery from './Gallery/Gallery';
 import Footer from 'components/Footer/Footer';
 import Title from 'components/Title/Title';
+import ProjectBooksText from 'components/ProjectBooksText/ProjectBooksText';
+import ProjectFoodText from 'components/ProjectBooksText/ProjectBooksText';
+import ProjectBooksGallery from './ProjectBooksGallery/ProjectBooksGallery';
+import ProjectFoodGallery from './ProjectFoodGallery/ProjectFoodGallery';
 
 
 const ProjectPage = () => {
@@ -10,7 +13,10 @@ const ProjectPage = () => {
       <>
       <Title />
       <Header />
-      <Gallery/> 
+      <ProjectBooksText/>
+      <ProjectBooksGallery/>
+      <ProjectFoodText/> 
+      <ProjectFoodGallery/>
       <Banking/> 
       <Footer />
       </>

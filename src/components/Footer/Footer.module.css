@@ -1,4 +1,10 @@
 
+/* @media (max-width: 768px) {
+  .footer {
+    padding: 5px;
+  }
+} */
+
 .footer {
   padding: 10px;
   display: flex;
