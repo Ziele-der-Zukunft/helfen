@@ -4,7 +4,7 @@ import css from './MainPageText.module.css';
 const MainPageText = () => {
   const language = useSelector(state => state.language);
   return (
-    <p className={css.text}>
+    <p className={css.mainText}>
       {language === 'de' ? (   
               `Im Zusammenhang mit militärischen Aggressionen auf dem Territorium
               der Ukraine wurden Hunderttausende Zivilisten in ukrainischen

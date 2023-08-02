@@ -1,10 +1,10 @@
 import { useSelector } from 'react-redux';
 import css from './ProjectBooksText.module.css';
 
-const ProjectFoodText = () => {
+const ProjectBooksText = () => {
   const language = useSelector(state => state.language);
   return (
-    <p className={css.text}>
+    <p className={css.booksText}>
       {language === 'de' ? (   
               `Die Wohltätigkeitsorganisation „Ziele der Zukunft e.V.“ 
               hat gemeinsam mit der ukrainischen 
@@ -31,4 +31,4 @@ const ProjectFoodText = () => {
     )} </p>
   )
 }
-export default ProjectFoodText;
+export default ProjectBooksText;

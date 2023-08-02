@@ -1,10 +1,10 @@
 import { useSelector } from 'react-redux';
 import css from './ProjectFoodText.module.css';
 
-const MainPageText = () => {
+const ProjectFoodText = () => {
   const language = useSelector(state => state.language);
   return (
-    <p className={css.text}>
+    <p className={css.foodText}>
       {language === 'de' ? (   
               `Die Wohltätigkeitsorganisation „Ziele der Zukunft e.V." 
               hat auf der Plattform Betterplace eine Spendenaktion 
@@ -26,4 +26,4 @@ const MainPageText = () => {
     )} </p>
   )
 }
-export default MainPageText;
+export default ProjectFoodText;
