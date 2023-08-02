@@ -41,6 +41,7 @@ const MobileMenu = () => {
       </button>
 
       {isMobileMenuOpen && (
+        <div className={css.backdrop} onClick={toggleMobileMenu}>
         <div
           className={`${css.mobMenu} ${isMobileMenuOpen ? 'is-hidden' : ''}`}
         >
@@ -64,6 +65,7 @@ const MobileMenu = () => {
               {contactsPage}
             </NavLink>
           </nav>
+        </div>
         </div>
       )}
     </>

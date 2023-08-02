@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import css from './Contacts.module.css';
-import sprite from '../../images/icons.svg'
+import sprite from '../../../images/icons.svg'
 
 const Contacts = () => {
   const language = useSelector(state => state.language);

@@ -1,5 +1,5 @@
 import css from "./SocialMedia.module.css"
-import sprite from '../../images/icons.svg'
+import sprite from '../../../images/icons.svg'
 import { useSelector } from "react-redux"
 
 const SocialMedia = () => {
