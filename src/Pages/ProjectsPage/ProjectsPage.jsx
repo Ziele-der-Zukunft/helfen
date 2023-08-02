@@ -2,8 +2,8 @@ import Banking from 'components/Banking/Banking';
 import Header from '../../components/Header/Header';
 import Footer from 'components/Footer/Footer';
 import Title from 'components/Title/Title';
-import ProjectBooksText from 'components/ProjectBooksText/ProjectBooksText';
-import ProjectFoodText from 'components/ProjectBooksText/ProjectBooksText';
+import ProjectBooksText from 'Pages/ProjectsPage/ProjectBooksText/ProjectBooksText';
+import ProjectFoodText from 'Pages/ProjectsPage/ProjectBooksText/ProjectBooksText';
 import ProjectBooksGallery from './ProjectBooksGallery/ProjectBooksGallery';
 import ProjectFoodGallery from './ProjectFoodGallery/ProjectFoodGallery';
 
