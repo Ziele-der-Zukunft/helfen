@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import css from 'components/MainPageText/MainPageText.module.css';
+import css from './ProjectFoodText.module.css';
 
 const MainPageText = () => {
   const language = useSelector(state => state.language);

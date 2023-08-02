@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import css from 'components/ProjectBooksText/ProjectBooksText.module.css';
+import css from './ProjectBooksText.module.css';
 
 const ProjectFoodText = () => {
   const language = useSelector(state => state.language);
