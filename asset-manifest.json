@@ -1,24 +1,20 @@
 {
   "files": {
-    "main.css": "/helfen/static/css/main.d70008ef.css",
-    "main.js": "/helfen/static/js/main.ad4ef91e.js",
+    "main.css": "/helfen/static/css/main.33911977.css",
+    "main.js": "/helfen/static/js/main.ceecd686.js",
     "static/media/photo_7.jpg": "/helfen/static/media/photo_7.6511384d93389275e12a.jpg",
-    "static/media/photo_2.jpg": "/helfen/static/media/photo_2.67faa22c0bec69c7dc29.jpg",
-    "static/media/photo_4.jpg": "/helfen/static/media/photo_4.9ea43d09055cea4bef40.jpg",
     "static/media/world_ukraine.svg": "/helfen/static/media/world_ukraine.93bd88323ac6af9b6b4f.svg",
-    "static/media/photo_3.jpg": "/helfen/static/media/photo_3.a4c8056ed288bdcd63e5.jpg",
-    "static/media/russia_is_a_terrorist_state.jpg": "/helfen/static/media/russia_is_a_terrorist_state.fa25b7237cd1f5ef31e8.jpg",
     "static/media/project-books-3.jpg": "/helfen/static/media/project-books-3.fdc4b2029f49b2bab74c.jpg",
     "static/media/project-books-1.jpg": "/helfen/static/media/project-books-1.c1a9d1673afb354cf6cd.jpg",
     "static/media/project-books-2.jpg": "/helfen/static/media/project-books-2.29fb991b8f908b6478a9.jpg",
     "static/media/project-books-4.jpg": "/helfen/static/media/project-books-4.e4089918f133b5361e44.jpg",
     "static/media/icons.svg": "/helfen/static/media/icons.1dcdf3ecc6f758269731f9a8ae937dc4.svg",
     "index.html": "/helfen/index.html",
-    "main.d70008ef.css.map": "/helfen/static/css/main.d70008ef.css.map",
-    "main.ad4ef91e.js.map": "/helfen/static/js/main.ad4ef91e.js.map"
+    "main.33911977.css.map": "/helfen/static/css/main.33911977.css.map",
+    "main.ceecd686.js.map": "/helfen/static/js/main.ceecd686.js.map"
   },
   "entrypoints": [
-    "static/css/main.d70008ef.css",
-    "static/js/main.ad4ef91e.js"
+    "static/css/main.33911977.css",
+    "static/js/main.ceecd686.js"
   ]
 }
