@@ -6,8 +6,7 @@
   letter-spacing: 0.05em;
   color: var(--primary-text-color);
   background-color: var(--primary-bg-white-color);
+  outline: 2px solid var(--accent-color-2);
   padding: 10px;
   border-radius: 5px;
 }
-  
-
