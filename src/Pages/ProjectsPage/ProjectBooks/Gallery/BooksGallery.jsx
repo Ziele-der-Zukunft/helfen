@@ -1,8 +1,8 @@
-import css from './ProjectBooksGallery.module.css'
-import photoBooks1 from "../../../images/project-books-1.jpg"
-import photoBooks2 from "../../../images/project-books-2.jpg"
-import photoBooks3 from "../../../images/project-books-3.jpg"
-import photoBooks4 from "../../../images/project-books-4.jpg"
+import css from './BooksGallery.module.css'
+import photoBooks1 from "../../../../images/project-books-1.jpg"
+import photoBooks2 from "../../../../images/project-books-2.jpg"
+import photoBooks3 from "../../../../images/project-books-3.jpg"
+import photoBooks4 from "../../../../images/project-books-4.jpg"
 
 const ProjectBooksGallery = () => {
   return (

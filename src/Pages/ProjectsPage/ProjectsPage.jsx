@@ -1,9 +1,9 @@
 import Title from 'components/Title/Title';
 import Header from '../../components/Header/Header';
-import ProjectBooksText from 'Pages/ProjectsPage/ProjectBooksText/ProjectBooksText.jsx';
-import ProjectBooksGallery from './ProjectBooksGallery/ProjectBooksGallery.jsx';
-import ProjectFoodText from 'Pages/ProjectsPage/ProjectFoodText/ProjectFoodText.jsx';
-import ProjectFoodGallery from './ProjectFoodGallery/ProjectFoodGallery.jsx';
+import ProjectBooksText from 'Pages/ProjectsPage/ProjectBooks/Description/BooksText';
+import ProjectBooksGallery from './ProjectBooks/Gallery/BooksGallery';
+import ProjectFoodText from 'Pages/ProjectsPage/ProjectFood/Description/FoodText';
+import ProjectFoodGallery from './ProjectFood/Gallery/FoodGallery';
 import Banking from 'components/Banking/Banking';
 import Footer from 'components/Footer/Footer';
 
@@ -18,7 +18,7 @@ const ProjectPage = () => {
       <ProjectFoodText/> 
       <ProjectFoodGallery/>
       <Banking/> 
-      <Footer />
+      <Footer/>
       </>
     );
   };

@@ -1,8 +1,8 @@
-import css from './ProjectFoodGallery.module.css'
-import photo2 from "../../../images/photo_2.jpg"
-import photo3 from "../../../images/photo_3.jpg"
-import photo4 from "../../../images/photo_4.jpg"
-import photo5 from "../../../images/russia_is_a_terrorist_state.jpg"
+import css from './FoodGallery.module.css'
+import photo2 from "../../../../images/photo_2.jpg"
+import photo3 from "../../../../images/photo_3.jpg"
+import photo4 from "../../../../images/photo_4.jpg"
+import photo5 from "../../../../images/russia_is_a_terrorist_state.jpg"
 
 const ProjectFoodGallery = () => {
   return (
