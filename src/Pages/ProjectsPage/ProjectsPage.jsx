@@ -13,8 +13,8 @@ const ProjectPage = () => {
       <>
       <Title />
       <Header />
-      <ProjectBooksText/>
       <ProjectBooksGallery/>
+      <ProjectBooksText/>
       <ProjectFoodText/> 
       <ProjectFoodGallery/>
       <Banking/> 
