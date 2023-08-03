@@ -14,6 +14,7 @@ const ProjectPage = () => {
       <Title />
       <Header />
       <ProjectBooksText/>
+      <ProjectBooksText/>
       <ProjectBooksGallery/>
       <ProjectFoodText/> 
       <ProjectFoodGallery/>
