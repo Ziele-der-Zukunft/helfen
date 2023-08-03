@@ -5,8 +5,7 @@
   line-height: calc(26 / 20);
   letter-spacing: 0.05em;
   color: var(--primary-text-color);
-  background-color: #ffffff;
-  /* outline: 2px solid var(--accent-color-2); */
+  background-color: var(--primary-bg-white-color);
   padding: 10px;
   border-radius: 5px;
 }
