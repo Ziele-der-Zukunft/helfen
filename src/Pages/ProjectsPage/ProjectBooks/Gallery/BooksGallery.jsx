@@ -11,7 +11,7 @@ const ProjectBooksGallery = () => {
         <li className={css.galleryItem}>
           <img
             src={photoBooks2}
-            alt="a rally in support of ukraine"
+            alt="alphabet-arithmetic book"
             className={css.galleryPhoto}
             width="600"
           />
@@ -19,7 +19,7 @@ const ProjectBooksGallery = () => {
         <li className={css.galleryItem}>
           <img
             src={photoBooks3}
-            alt="a rally in support of ukraine"
+            alt="open book alphabet-arithmetic"
             className={css.galleryPhoto}
             width="600"
           />
@@ -27,7 +27,7 @@ const ProjectBooksGallery = () => {
       <li className={css.galleryItem}>
           <img
             src={photoBooks1}
-            alt="a rally in support of ukraine"
+            alt="Braille letters and numbers"
             className={css.galleryPhoto}
             width="600"
           />
@@ -35,7 +35,7 @@ const ProjectBooksGallery = () => {
         <li className={css.galleryItem}>
           <img
             src={photoBooks4}
-            alt="a rally in support of ukraine"
+            alt="text on the page in Braille"
             className={css.galleryPhoto}
             width="600"
           />

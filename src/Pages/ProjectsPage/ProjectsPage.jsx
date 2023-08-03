@@ -5,8 +5,6 @@ import ProjectBooksGallery from './ProjectBooks/Gallery/BooksGallery';
 import ProjectFoodText from 'Pages/ProjectsPage/ProjectFood/Description/FoodText';
 import ProjectFoodGallery from './ProjectFood/Gallery/FoodGallery';
 import Banking from 'components/Banking/Banking';
-import Footer from 'components/Footer/Footer';
-
 
 const ProjectPage = () => {
     return (
@@ -18,7 +16,6 @@ const ProjectPage = () => {
       <ProjectFoodText/> 
       <ProjectFoodGallery/>
       <Banking/> 
-      <Footer/>
       </>
     );
   };
