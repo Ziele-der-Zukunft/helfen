@@ -1,11 +1,11 @@
 .booksText {
-  background-color: var(--primary-bg-white-color);
   margin-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
   font-size: 16px;
   font-weight: 500;
   line-height: calc(26 / 20);
   letter-spacing: 0.05em;
+  background-color: var(--primary-bg-white-color);
   color: var(--primary-text-color);
-  padding: 10px;
-  border-radius: 5px;
 }
