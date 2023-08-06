@@ -1,18 +1,18 @@
-.gallery {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
 .galleryThumb {
-    margin-top: 5px;
-    display: flex;
-    justify-content: center;
+  margin-top: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  display: flex;
+  justify-content: center;
 }
 
 .galleryList {
-    @extend %list;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 /* .gallery-item {
@@ -28,8 +28,7 @@
 } */
 
 .galleryPhoto {
-    display: block;
-    max-width: 100%;
-    object-fit: cover;   
-
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
 }
