@@ -6,3 +6,15 @@
   border-radius: 5px;
   background-color: var(--primary-bg-white-color);}
  
+  .buttonMobileMenu {
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .buttonMobileMenu {
+      display: block;
+    }
+    .navbar {
+      display: none;
+    }
+  }
