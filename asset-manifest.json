@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/helfen/static/css/main.759606f3.css",
-    "main.js": "/helfen/static/js/main.006a0576.js",
+    "main.js": "/helfen/static/js/main.df26eddd.js",
     "static/media/photo_7.jpg": "/helfen/static/media/photo_7.6511384d93389275e12a.jpg",
     "static/media/photo_2.jpg": "/helfen/static/media/photo_2.67faa22c0bec69c7dc29.jpg",
     "static/media/photo_4.jpg": "/helfen/static/media/photo_4.9ea43d09055cea4bef40.jpg",
+    "static/media/SportEventDe.jpg": "/helfen/static/media/SportEventDe.de66435276b614868e73.jpg",
+    "static/media/SportEventEn.jpg": "/helfen/static/media/SportEventEn.c811d9dba91b2a02773b.jpg",
     "static/media/world_ukraine.svg": "/helfen/static/media/world_ukraine.93bd88323ac6af9b6b4f.svg",
     "static/media/photo_3.jpg": "/helfen/static/media/photo_3.a4c8056ed288bdcd63e5.jpg",
     "static/media/SportEvent.jpg": "/helfen/static/media/SportEvent.04fed3a3b5b43348b7fa.jpg",
@@ -16,10 +18,10 @@
     "static/media/icons.svg": "/helfen/static/media/icons.1dcdf3ecc6f758269731f9a8ae937dc4.svg",
     "index.html": "/helfen/index.html",
     "main.759606f3.css.map": "/helfen/static/css/main.759606f3.css.map",
-    "main.006a0576.js.map": "/helfen/static/js/main.006a0576.js.map"
+    "main.df26eddd.js.map": "/helfen/static/js/main.df26eddd.js.map"
   },
   "entrypoints": [
     "static/css/main.759606f3.css",
-    "static/js/main.006a0576.js"
+    "static/js/main.df26eddd.js"
   ]
 }
