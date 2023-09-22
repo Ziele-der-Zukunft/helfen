@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 const NavBarComp = () => {
   const language = useSelector(state => state.language);
   const mainPage = language === 'de' ? 'Startseite' : language === 'ua' ? 'Головна' : 'Main';
+  const eventsPage = language === 'de' ? 'Veranstaltungen' : language === 'ua' ? 'Події' : 'Events';
   const projectsPage = language === 'de' ? 'Projekte' : language === 'ua' ? 'Проєкти' : 'Projects';
   const contactsPage = language === 'de' ? 'Kontakte' : language === 'ua' ? 'Контакти' : 'Contacts';
 
@@ -12,6 +13,9 @@ const NavBarComp = () => {
     <nav className={css.navBar}>
       <NavLink className={css.navBarLink} to="/startseite">
         {mainPage}
+      </NavLink>
+      <NavLink className={css.navBarLink} to="/veranstaltungen">
+        {eventsPage}
       </NavLink>
       <NavLink className={css.navBarLink} to="/projekte">
         {projectsPage}

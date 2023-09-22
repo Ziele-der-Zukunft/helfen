@@ -11,6 +11,7 @@ const MobileMenu = () => {
 
   const mainPage =
     language === 'de' ? 'Startseite' : language === 'ua' ? 'Головна' : 'Main';
+    const eventsPage = language === 'de' ? 'Veranstaltungen' : language === 'ua' ? 'Події' : 'Events';
   const projectsPage =
     language === 'de' ? 'Projekte' : language === 'ua' ? 'Проєкти' : 'Projects';
   const contactsPage =
@@ -71,6 +72,9 @@ const MobileMenu = () => {
               <NavLink className={css.mobMenuLink} to="/startseite">
                 {mainPage}
               </NavLink>
+              <NavLink className={css.mobMenuLink} to="/veranstaltungen">
+        {eventsPage}
+      </NavLink>
               <NavLink className={css.mobMenuLink} to="/projekte">
                 {projectsPage}
               </NavLink>
