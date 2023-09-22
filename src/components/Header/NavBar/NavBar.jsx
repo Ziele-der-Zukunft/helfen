@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 import css from './NavBar.module.css';
 import { NavLink } from 'react-router-dom';
 
-const NavBarComp = () => {
+const NavBar = () => {
   const language = useSelector(state => state.language);
   const mainPage = language === 'de' ? 'Startseite' : language === 'ua' ? 'Головна' : 'Main';
   const eventsPage = language === 'de' ? 'Veranstaltungen' : language === 'ua' ? 'Події' : 'Events';
@@ -14,7 +14,7 @@ const NavBarComp = () => {
       <NavLink className={css.navBarLink} to="/startseite">
         {mainPage}
       </NavLink>
-      <NavLink className={css.navBarLink} to="/veranstaltungen">
+      <NavLink className={css.navBarLink} to="/veranstaltungen" >
         {eventsPage}
       </NavLink>
       <NavLink className={css.navBarLink} to="/projekte">
@@ -27,4 +27,4 @@ const NavBarComp = () => {
   );
 };
 
-export default NavBarComp;
+export default NavBar;

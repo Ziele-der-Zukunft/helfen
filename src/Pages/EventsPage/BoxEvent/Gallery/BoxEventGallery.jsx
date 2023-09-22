@@ -1,14 +1,19 @@
 import css from './BoxEventGallery.module.css'
+import { useSelector } from 'react-redux';
 
 import BoxEventPhoto from "../../../../images/SportEvent.jpg"
+import BoxEventDePhoto from "../../../../images/SportEventDe.jpg"
+import BoxEventEnPhoto from "../../../../images/SportEventEn.jpg"
 
-const ProjectBooksGallery = () => {
+const BoxEventGallery = () => {
+  const language = useSelector(state => state.language);
+  let selectedImage = language === 'de' ? BoxEventDePhoto : language === 'ua' ? BoxEventPhoto : BoxEventEnPhoto;
   return (
     <div className={css.galleryThumb}>
       <ul className={css.galleryList}>
         <li className={css.galleryItem}>
           <img
-            src={BoxEventPhoto}
+            src={selectedImage}
             alt="box-event"
             className={css.galleryPhoto}
             width="600"
@@ -19,4 +24,4 @@ const ProjectBooksGallery = () => {
   );
 };
 
-export default ProjectBooksGallery;
+export default BoxEventGallery;

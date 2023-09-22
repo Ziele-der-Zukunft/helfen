@@ -11,7 +11,12 @@ const MobileMenu = () => {
 
   const mainPage =
     language === 'de' ? 'Startseite' : language === 'ua' ? 'Головна' : 'Main';
-    const eventsPage = language === 'de' ? 'Veranstaltungen' : language === 'ua' ? 'Події' : 'Events';
+  const eventsPage =
+    language === 'de'
+      ? 'Veranstaltungen'
+      : language === 'ua'
+      ? 'Події'
+      : 'Events';
   const projectsPage =
     language === 'de' ? 'Projekte' : language === 'ua' ? 'Проєкти' : 'Projects';
   const contactsPage =
@@ -33,7 +38,7 @@ const MobileMenu = () => {
       toggleMobileMenu();
     }
   };
-  
+
   useEffect(() => {
     document.body.style.overflow = 'auto';
   }, [location.pathname]);
@@ -73,8 +78,8 @@ const MobileMenu = () => {
                 {mainPage}
               </NavLink>
               <NavLink className={css.mobMenuLink} to="/veranstaltungen">
-        {eventsPage}
-      </NavLink>
+                {eventsPage}
+              </NavLink>
               <NavLink className={css.mobMenuLink} to="/projekte">
                 {projectsPage}
               </NavLink>
@@ -91,11 +96,7 @@ const MobileMenu = () => {
 
 export default MobileMenu;
 
-
-
-
 /*================================================================================*/
-
 
 // import css from './MobileMenu.module.css';
 // import { useSelector } from 'react-redux';
@@ -131,7 +132,7 @@ export default MobileMenu;
 //       toggleMobileMenu();
 //     }
 //   };
-  
+
 //   useEffect(() => {
 //     document.body.style.overflow = 'auto';
 //   }, [location.pathname]);
