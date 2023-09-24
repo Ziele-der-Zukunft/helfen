@@ -6,7 +6,7 @@ import BoxEventDePhoto from "../../../../images/SportEventDe.jpg"
 import BoxEventEnPhoto from "../../../../images/SportEventEn.jpg"
 
 const BoxEventGallery = () => {
-  const language = useSelector(state => state.language);
+  let language = useSelector(state => state.language);
   let selectedImage = language === 'de' ? BoxEventDePhoto : language === 'ua' ? BoxEventPhoto : BoxEventEnPhoto;
   return (
     <div className={css.galleryThumb}>

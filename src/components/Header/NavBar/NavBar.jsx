@@ -14,14 +14,14 @@ const NavBar = () => {
       <NavLink className={css.navBarLink} to="/startseite">
         {mainPage}
       </NavLink>
-      <NavLink className={css.navBarLink} to="/veranstaltungen" >
-        {eventsPage}
-      </NavLink>
       <NavLink className={css.navBarLink} to="/projekte">
         {projectsPage}
       </NavLink>
       <NavLink className={css.navBarLink} to="/kontakte">
         {contactsPage}
+      </NavLink>
+      <NavLink className={`${css.navBarLink} ${css.new}`} to="/veranstaltungen" >
+        {eventsPage}
       </NavLink>
     </nav>
   );

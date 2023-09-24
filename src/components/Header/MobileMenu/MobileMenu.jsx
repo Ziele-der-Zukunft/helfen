@@ -77,7 +77,7 @@ const MobileMenu = () => {
               <NavLink className={css.mobMenuLink} to="/startseite">
                 {mainPage}
               </NavLink>
-              <NavLink className={css.mobMenuLink} to="/veranstaltungen">
+              <NavLink className={`${css.mobMenuLink} ${css.new}`} to="/veranstaltungen">
                 {eventsPage}
               </NavLink>
               <NavLink className={css.mobMenuLink} to="/projekte">
