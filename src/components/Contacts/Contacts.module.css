@@ -1,0 +1,37 @@
+.contactsWrap {
+  display: flex;
+  justify-content: center;
+}
+.contacts {
+  margin: 0;
+  padding: 18px 0px;
+  list-style: none;
+  color: #ffffff;
+}
+@media (min-width: 320px) {
+  .contacts {
+    padding: 18px 10px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+  }
+}
+
+.contact + .contact {
+  margin-top: 3px;
+}
+
+.emailLinks,
+.phoneLinks {
+  color: inherit;
+  text-decoration: none;
+  margin-left: 5px;
+}
+.emailLinks:hover {
+  opacity: 0.7;
+}
+.phoneLinks:hover {
+  opacity: 0.7;
+}
+.contact:nth-child(9) {
+  margin-top: 20px;
+}

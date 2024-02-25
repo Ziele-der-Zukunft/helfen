@@ -1,0 +1,21 @@
+.footerWrap {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    text-align: left;
+    background-color: var(--bg-color);
+    border-top: 10px solid var(--accent-color);
+  }
+  
+  @media (min-width: 768px) {
+    .footerWrap {
+      padding: 80px 60px;
+      flex-direction: row;
+      font-size: 18px;
+    }
+  }
+  
+  
+  

@@ -1,0 +1,17 @@
+.headerWrap {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    text-align: left;
+    background-color: var(--color-secondary);
+    /* background-color: var(--bg-color-second) */
+  }
+  
+  @media (min-width: 768px) {
+    .headerWrap {
+      flex-direction: row;
+      font-size: 18px;
+    }
+  }
