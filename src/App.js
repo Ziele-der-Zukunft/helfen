@@ -3,14 +3,16 @@ import Header from "./components/Header/Header.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Partners from "./components/Partners/Partners.jsx";
+import { useState } from "react";
 
 function App() {
+  const [language, setLanguage] = useState("de")
   return (
     <>
-      <Header />
-      <Hero />
-      <Partners />
-      <Footer />
+      <Header language={language} setLanguage={setLanguage}/>
+      <Hero language={language}/>
+      <Partners language={language}/>
+      <Footer language={language}/>
     </>
   );
 }
