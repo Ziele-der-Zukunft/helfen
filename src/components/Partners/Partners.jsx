@@ -5,10 +5,16 @@ import logo3 from '../../images/logo_securis.jpg';
 import logo4 from '../../images/freistaat_thuringen.jpg';
 import logo5 from '../../images/logo_iqonex.jpg';
 
-const Partners = () => {
+const Partners = ({ language }) => {
+  const partner =
+    language === 'de'
+      ? 'Unsere Partner'
+      : language === 'en'
+      ? 'Our partners'
+      : 'Наші партнери';
   return (
     <div className={css.partnersWrap}>
-      <h2 className={css.partnersTitle}>Unsere Partner</h2>
+      <h2 className={css.partnersTitle}>{partner}</h2>
       <ul className={css.partnersList}>
         <li className={css.partnersListItem}>
           <img src={logo1} alt="house of resources" className={css.partnerLogo} />

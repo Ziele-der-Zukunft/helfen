@@ -2,10 +2,10 @@ import css from "./Footer.module.css";
 import Contacts from "../Contacts/Contacts.jsx";
 import SocialMedia from "../SocialMedia/SocialMedia.jsx";
 
-const Footer = () => {
+const Footer = ({language}) => {
   return (
     <div className={css.footerWrap}>
-      <Contacts />
+      <Contacts language={language}/>
       <SocialMedia />
     </div>
   );

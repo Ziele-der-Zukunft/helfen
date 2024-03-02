@@ -6,9 +6,9 @@ const LanguageSwitcher = ({language, setLanguage}) => {
 
   return (
       <ul className={css.languageList}>
-        <li className={`${css.languageListItem} ${language === "en" ? css.activeFlag : ""}`} onClick={() => setLanguage("en")}>
+        <li className={`${css.languageListItem} ${language === "de" ? css.activeFlag : ""}`} onClick={() => setLanguage("de")}>
             <svg width="44" height="30">
-              <use href={`${sprite}#usaflag`}></use>
+              <use href={`${sprite}#deflag`}></use>
             </svg>
         </li>
         <li className={`${css.languageListItem} ${language === "ua" ? css.activeFlag : ""}`} onClick={() => setLanguage("ua")}>
@@ -16,9 +16,9 @@ const LanguageSwitcher = ({language, setLanguage}) => {
               <use href={`${sprite}#ukrflag`}></use>
             </svg>
         </li>
-        <li className={`${css.languageListItem} ${language === "de" ? css.activeFlag : ""}`} onClick={() => setLanguage("de")}>
+        <li className={`${css.languageListItem} ${language === "en" ? css.activeFlag : ""}`} onClick={() => setLanguage("en")}>
             <svg width="44" height="30">
-              <use href={`${sprite}#deflag`}></use>
+              <use href={`${sprite}#usaflag`}></use>
             </svg>
         </li>
       </ul>
