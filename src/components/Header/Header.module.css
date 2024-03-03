@@ -6,9 +6,11 @@
   top: 0;
   right: 0;
   left: 0;
-  transition: background-color 500ms ease;
+  background-color: var(--color-secondary);
+  transition: background-color 500ms ease, padding 500ms ease;
 }
 
 .scrolled {
+  padding: 0 10px;
   background-color: rgba(255, 255, 255, 0.9);
 }
