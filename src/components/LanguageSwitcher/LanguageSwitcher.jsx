@@ -10,7 +10,7 @@ const LanguageSwitcher = () => {
   const language = useSelector((state) =>state.language);
 
   return (
-    <ul className={css.languageList}>
+     <ul className={css.languageList}>
       <li
         className={`${css.languageListItem} ${
           language === 'de' ? css.activeFlag : ''

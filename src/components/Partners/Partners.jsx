@@ -51,6 +51,7 @@ const Partners = () => {
 
 export default Partners;
 
+
 // ----------------------- зміна мови інтерфейсу за допомогою props--------
 
 // import css from './Partners.module.css';

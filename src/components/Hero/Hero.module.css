@@ -1,5 +1,5 @@
 .heroWrap {
-  padding: 40px 20px;
+  padding: 100px 20px 40px;
   color: var(--text-color);
   background-image: linear-gradient(
     120deg,
@@ -12,7 +12,7 @@
 }
 @media (min-width: 768px) {
   .heroWrap {
-    padding: 80px 60px;
+    padding: 140px 60px 80px;
     font-size: 18px;
     justify-content: center;
   }

@@ -15,7 +15,7 @@ const App = () => {
       <Hero />
       <Partners />
       <Footer />
-    </>
+      </>
   );
 };
 
