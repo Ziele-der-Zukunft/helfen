@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/helfen/static/css/main.3b302465.css",
+    "main.css": "/helfen/static/css/main.de215d6a.css",
     "main.js": "/helfen/static/js/main.c3724f1b.js",
     "static/media/Hero.jpg": "/helfen/static/media/Hero.6511384d93389275e12a.jpg",
     "static/media/logo_bundesministerium_des_innern_und_fur_heimat.jpg": "/helfen/static/media/logo_bundesministerium_des_innern_und_fur_heimat.5c61ee2665e76f320ba9.jpg",
@@ -11,11 +11,11 @@
     "static/media/icons.svg": "/helfen/static/media/icons.310295bc2085f5ba943c96eb5e9b7299.svg",
     "static/media/logo.jpg": "/helfen/static/media/logo.fc1222c02c42715e31fa.jpg",
     "index.html": "/helfen/index.html",
-    "main.3b302465.css.map": "/helfen/static/css/main.3b302465.css.map",
+    "main.de215d6a.css.map": "/helfen/static/css/main.de215d6a.css.map",
     "main.c3724f1b.js.map": "/helfen/static/js/main.c3724f1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b302465.css",
+    "static/css/main.de215d6a.css",
     "static/js/main.c3724f1b.js"
   ]
 }
