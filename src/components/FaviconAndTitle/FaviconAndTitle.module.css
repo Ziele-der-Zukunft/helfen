@@ -1,0 +1,32 @@
+.heroWrap {
+  padding: 40px 20px;
+  color: var(--text-color);
+  background-image: linear-gradient(
+    120deg,
+    var(--bg-color-4) 60%,
+    var(--bg-color-5) 60%
+  );
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+@media (min-width: 768px) {
+  .heroWrap {
+    padding: 80px 60px;
+    font-size: 18px;
+    justify-content: center;
+  }
+}
+.heroTextWrap {
+  max-width: 60%;
+}
+.heroTitle {
+  font-size: 24px;
+  text-align: center;
+}
+.heroText {
+  margin-top: 30px;
+}
+.heroImgWrap {
+  border-top: 10px solid var(--accent-color);
+}

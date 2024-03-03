@@ -1,7 +1,7 @@
 .footerWrap {
     padding: 40px 20px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
     font-size: 16px;
     text-align: left;
@@ -9,10 +9,14 @@
     border-top: 10px solid var(--accent-color);
   }
   
+  @media (max-width: 480px) {
+    .footerWrap {
+      justify-content: center;
+    }
+  }
   @media (min-width: 768px) {
     .footerWrap {
       padding: 80px 60px;
-      flex-direction: row;
       font-size: 18px;
     }
   }

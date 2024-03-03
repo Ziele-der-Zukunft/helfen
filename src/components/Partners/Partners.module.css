@@ -1,18 +1,18 @@
 .partnersWrap {
-  padding: 40px 20px;
+  padding: 80px 60px;
   color: #333;
   background-color: #f4f4f4;
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 70px;
 }
-@media (min-width: 768px) {
+@media (max-width: 767px) {
   .partnersWrap {
-    padding: 80px 60px;
-    font-size: 18px;
-    justify-content: center;
+    padding: 40px 20px;
+    gap: 40px;
   }
 }
+
 .partnersTitle {
   font-size: 24px;
   text-align: center;
@@ -21,10 +21,17 @@
 .partnersList {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
   padding: 0;
 }
+@media (min-width: 950px) {
+  .partnersList {
+    justify-content: space-between;
+  }
+}
+
 .partnersListItem:nth-child(4) {
   display: flex;
   flex-direction: column;

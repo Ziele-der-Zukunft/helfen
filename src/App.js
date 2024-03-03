@@ -1,26 +1,25 @@
-import "./App.css";
-import Header from "./components/Header/Header.jsx";
-import Hero from "./components/Hero/Hero.jsx";
-import Footer from "./components/Footer/Footer.jsx";
-import Partners from "./components/Partners/Partners.jsx";
-import { useState } from "react";
+import './App.css';
+import Header from './components/Header/Header.jsx';
+import Hero from './components/Hero/Hero.jsx';
+import Footer from './components/Footer/Footer.jsx';
+import Partners from './components/Partners/Partners.jsx';
+import FaviconAndTitle from 'components/FaviconAndTitle/FaviconAndTitle.jsx';
 
-function App() {
-  const [language, setLanguage] = useState("de")
+
+const App = () => {
+
   return (
     <>
-      <Header language={language} setLanguage={setLanguage}/>
-      <Hero language={language}/>
-      <Partners language={language}/>
-      <Footer language={language}/>
+      <FaviconAndTitle />
+      <Header />
+      <Hero />
+      <Partners />
+      <Footer />
     </>
   );
-}
+};
 
 export default App;
-
-
-
 
 
 
