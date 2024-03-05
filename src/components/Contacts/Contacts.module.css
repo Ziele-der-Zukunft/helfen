@@ -4,13 +4,12 @@
 }
 .contacts {
   margin: 0;
-  padding: 18px 0px;
+  padding: 0px;
   list-style: none;
   color: var(--text-color);
 }
 @media (min-width: 320px) {
   .contacts {
-    padding: 18px 10px;
     font-weight: 500;
     letter-spacing: 0.03em;
   }

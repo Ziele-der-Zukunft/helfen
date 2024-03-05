@@ -1,0 +1,26 @@
+.swiperContainer {
+  padding: 40px 20px;
+  color: #333;
+  background-color: tomato;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media (min-width: 481px) {
+  .swiperContainer {
+    padding: 60px 35px;
+    gap: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .swiperContainer {
+    padding: 80px 60px;
+    gap: 70px;
+  }
+}
+
+.projectsTitle {
+  font-size: 24px;
+  text-align: center;
+}
+

@@ -8,7 +8,7 @@ import logo5 from '../../images/logo_iqonex.jpg';
 
 const Partners = () => {
   const language = useSelector(state => state.language);
-  const partner =
+  const title =
     language === 'de'
       ? 'Unsere Partner'
       : language === 'en'
@@ -17,7 +17,7 @@ const Partners = () => {
 
   return (
     <div className={css.partnersWrap}>
-      <h2 className={css.partnersTitle}>{partner}</h2>
+      <h2 className={css.partnersTitle}>{title}</h2>
       <ul className={css.partnersList}>
         <li className={css.partnersListItem}>
           <img
