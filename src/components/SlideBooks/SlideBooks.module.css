@@ -1,0 +1,28 @@
+.slideBooksWrap {
+  /* color: var(--text-second-color); */
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.slideBooksTextWrap {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.slideBooksTitle {
+  font-size: 22px;
+  text-align: center;
+}
+.slideBooksText {
+  font-size: 18px;
+}
+.slideBooksImgWrap {
+  width: 100%;
+}

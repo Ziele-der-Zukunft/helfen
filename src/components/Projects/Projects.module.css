@@ -1,7 +1,6 @@
 .swiperContainer {
   padding: 40px 20px;
-  color: #333;
-  background-color: tomato;
+  background-color: var(--color-secondary);
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -9,13 +8,13 @@
 @media (min-width: 481px) {
   .swiperContainer {
     padding: 60px 35px;
-    gap: 50px;
+    gap: 40px;
   }
 }
 @media (min-width: 768px) {
   .swiperContainer {
     padding: 80px 60px;
-    gap: 70px;
+    gap: 50px;
   }
 }
 

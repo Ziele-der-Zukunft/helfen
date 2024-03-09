@@ -4,8 +4,10 @@ import Hero from './components/Hero/Hero.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Partners from './components/Partners/Partners.jsx';
 import FaviconAndTitle from 'components/FaviconAndTitle/FaviconAndTitle.jsx';
-// import { Projects } from 'components/Projects/Projects.jsx';
+import { register } from 'swiper/element/bundle';
+import { Projects } from 'components/Projects/Projects.jsx';
 
+register();
 
 const App = () => {
 
@@ -14,7 +16,7 @@ const App = () => {
       <FaviconAndTitle />
       <Header />
       <Hero />
-      {/* <Projects /> */}
+      <Projects />
       <Partners />
       <Footer />
       </>
