@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/helfen/static/css/main.2e6f2d0a.css",
-    "main.js": "/helfen/static/js/main.e64909ed.js",
-    "static/media/Hero.jpg": "/helfen/static/media/Hero.6511384d93389275e12a.jpg",
-    "static/media/logo_bundesministerium_des_innern_und_fur_heimat.jpg": "/helfen/static/media/logo_bundesministerium_des_innern_und_fur_heimat.5c61ee2665e76f320ba9.jpg",
-    "static/media/logo_house_of_resources.jpg": "/helfen/static/media/logo_house_of_resources.125b7ad03be6da2f19de.jpg",
-    "static/media/freistaat_thuringen.jpg": "/helfen/static/media/freistaat_thuringen.6f438aba9a99525e979e.jpg",
-    "static/media/logo_iqonex.jpg": "/helfen/static/media/logo_iqonex.fd20156a8770bd4283ce.jpg",
-    "static/media/logo_securis.jpg": "/helfen/static/media/logo_securis.49257dd28c278a1d9932.jpg",
-    "static/media/icons.svg": "/helfen/static/media/icons.310295bc2085f5ba943c96eb5e9b7299.svg",
-    "static/media/logo.jpg": "/helfen/static/media/logo.fc1222c02c42715e31fa.jpg",
-    "index.html": "/helfen/index.html",
-    "main.2e6f2d0a.css.map": "/helfen/static/css/main.2e6f2d0a.css.map",
-    "main.e64909ed.js.map": "/helfen/static/js/main.e64909ed.js.map"
+    "main.css": "/wildeshausen/static/css/main.2e6f2d0a.css",
+    "main.js": "/wildeshausen/static/js/main.e54b2edd.js",
+    "static/media/Hero.jpg": "/wildeshausen/static/media/Hero.6511384d93389275e12a.jpg",
+    "static/media/logo_bundesministerium_des_innern_und_fur_heimat.jpg": "/wildeshausen/static/media/logo_bundesministerium_des_innern_und_fur_heimat.5c61ee2665e76f320ba9.jpg",
+    "static/media/logo_house_of_resources.jpg": "/wildeshausen/static/media/logo_house_of_resources.125b7ad03be6da2f19de.jpg",
+    "static/media/freistaat_thuringen.jpg": "/wildeshausen/static/media/freistaat_thuringen.6f438aba9a99525e979e.jpg",
+    "static/media/logo_iqonex.jpg": "/wildeshausen/static/media/logo_iqonex.fd20156a8770bd4283ce.jpg",
+    "static/media/logo_securis.jpg": "/wildeshausen/static/media/logo_securis.49257dd28c278a1d9932.jpg",
+    "static/media/icons.svg": "/wildeshausen/static/media/icons.310295bc2085f5ba943c96eb5e9b7299.svg",
+    "static/media/logo.jpg": "/wildeshausen/static/media/logo.fc1222c02c42715e31fa.jpg",
+    "index.html": "/wildeshausen/index.html",
+    "main.2e6f2d0a.css.map": "/wildeshausen/static/css/main.2e6f2d0a.css.map",
+    "main.e54b2edd.js.map": "/wildeshausen/static/js/main.e54b2edd.js.map"
   },
   "entrypoints": [
     "static/css/main.2e6f2d0a.css",
-    "static/js/main.e64909ed.js"
+    "static/js/main.e54b2edd.js"
   ]
 }
