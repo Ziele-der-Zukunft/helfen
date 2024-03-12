@@ -1,15 +1,15 @@
-import css from './SlideBooks.module.css';
+import css from './Sozialküche.module.css';
 import { useSelector } from 'react-redux';
 
-const SlideBooks = () => {
+const SlideSozialküche = () => {
   const language = useSelector(state => state.language);
 
   const title =
     language === 'de'
-      ? 'Bücher für sehbehinderte Kinder'
+      ? 'Lebensmittel für Sozialküchen in der Ukraine'
       : language === 'en'
-      ? 'Books for visually impaired children'
-      : 'Книги для дітей з порушеннями зору';
+      ? 'Food for social kitchens in Ukraine'
+      : 'Продукти харчування для соціальних кухонь в Україні';
   // const content =
   //   language === 'de'
   //     ? 'Die Wohltätigkeitsorganisation „Ziele der Zukunft“ und die ukrainische Organisation ROCOOMB „Tag“ (Regionale Organisation Cherkassy „Öffentliche Organisation von Menschen mit Behinderungen “Tag“) haben sich zusammengeschlossen, um eine Spendenkampagne zu initiieren. Ziel dieser Aktion ist es, die Finanzierung für die Herstellung von 1200 Fachbüchern in Braille-Schrift sicherzustellen. Diese Bücher sind für sehbehinderte und blinde Kinder in 56 Bildungseinrichtungen in der Ukraine bestimmt.'
@@ -40,26 +40,11 @@ const SlideBooks = () => {
   return (
     <div className={css.slideBooksWrap}>
       <div className={css.slideBooksImgWrap}>
-        {/* <img
-              src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1709746744/project-books-4_vwjha5.jpg"
-              alt="Bücher für sehbehinderte Kinder 2"
-              width="100%"
-            /> */}
         <img
-              src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1709746744/project-books-1_baqc22.jpg"
-              alt="Bücher für sehbehinderte Kinder 1"
+              src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1710253599/Sozialk%C3%BCchen_in_der_Ukraine_islrfp.jpg"
+              alt="Lebensmittel für Sozialküchen in der Ukraine"
               width="100%"
             />
-        {/* <img
-              src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1709746744/project-books-3_r5nlpu.jpg"
-              alt="Bücher für sehbehinderte Kinder 2"
-              width="100%"
-            /> */}
-        {/* <img
-              src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1709746744/project-books-2_fcaajy.jpg"
-              alt="Bücher für sehbehinderte Kinder 2"
-              width="100%"
-            /> */}
         </div> 
       <div className={css.slideBooksTextWrap}>
         <h3 className={css.slideBooksTitle}>{title}</h3>
@@ -69,4 +54,4 @@ const SlideBooks = () => {
   );
 };
 
-export default SlideBooks;
+export default SlideSozialküche;

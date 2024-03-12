@@ -2,6 +2,7 @@ import SlideBooks from 'components/SlideBooks/SlideBooks.jsx';
 import { useRef, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import css from './Projects.module.css';
+import SlideSozialküche from 'components/Sozialküche/Sozialküche.jsx';
 
 export const Projects = () => {
   const language = useSelector(state => state.language);
@@ -34,7 +35,28 @@ export const Projects = () => {
       <h2 className={css.projectsTitle}>{title}</h2>
       <swiper-container
         ref={swiperElRef}
-        slides-per-view="4"
+        breakpoints={
+          JSON.stringify({
+            
+              100:{
+                  slidesPerView: 1,
+              },
+  
+              640: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+              },
+              768: {
+                  slidesPerView: 2,
+                  spaceBetween: 40,
+              },
+  
+              1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 50,
+              }
+          })
+      }
         navigation="true"
         keyboard="true"
         space-between="20"
@@ -46,13 +68,7 @@ export const Projects = () => {
           <SlideBooks/>
         </swiper-slide>
         <swiper-slide>
-          <SlideBooks/>
-        </swiper-slide>
-        <swiper-slide>
-          <SlideBooks/>
-        </swiper-slide>
-        <swiper-slide>
-          <SlideBooks/>
+          <SlideSozialküche/>
         </swiper-slide>
         <swiper-slide>
           <SlideBooks/>

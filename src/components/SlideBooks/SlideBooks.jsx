@@ -40,26 +40,11 @@ const SlideBooks = () => {
   return (
     <div className={css.slideBooksWrap}>
       <div className={css.slideBooksImgWrap}>
-        {/* <img
-              src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1709746744/project-books-4_vwjha5.jpg"
-              alt="Bücher für sehbehinderte Kinder 2"
-              width="100%"
-            /> */}
         <img
               src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1709746744/project-books-1_baqc22.jpg"
-              alt="Bücher für sehbehinderte Kinder 1"
+              alt="Bücher für sehbehinderte Kinder"
               width="100%"
             />
-        {/* <img
-              src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1709746744/project-books-3_r5nlpu.jpg"
-              alt="Bücher für sehbehinderte Kinder 2"
-              width="100%"
-            /> */}
-        {/* <img
-              src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1709746744/project-books-2_fcaajy.jpg"
-              alt="Bücher für sehbehinderte Kinder 2"
-              width="100%"
-            /> */}
         </div> 
       <div className={css.slideBooksTextWrap}>
         <h3 className={css.slideBooksTitle}>{title}</h3>
