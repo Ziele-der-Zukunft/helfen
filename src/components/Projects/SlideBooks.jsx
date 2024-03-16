@@ -1,15 +1,16 @@
-import css from './Sozialküche.module.css';
+import css from './Projects.module.css';
 import { useSelector } from 'react-redux';
+import fallbackImageUrl from "../../images/logo.jpg";
 
-const SlideSozialküche = () => {
+const SlideBooks = () => {
   const language = useSelector(state => state.language);
 
   const title =
     language === 'de'
-      ? 'Lebensmittel für Sozialküchen in der Ukraine'
+      ? 'Bücher für sehbehinderte Kinder'
       : language === 'en'
-      ? 'Food for social kitchens in Ukraine'
-      : 'Продукти харчування для соціальних кухонь в Україні';
+      ? 'Books for visually impaired children'
+      : 'Книги для дітей з порушеннями зору';
   // const content =
   //   language === 'de'
   //     ? 'Die Wohltätigkeitsorganisation „Ziele der Zukunft“ und die ukrainische Organisation ROCOOMB „Tag“ (Regionale Organisation Cherkassy „Öffentliche Organisation von Menschen mit Behinderungen “Tag“) haben sich zusammengeschlossen, um eine Spendenkampagne zu initiieren. Ziel dieser Aktion ist es, die Finanzierung für die Herstellung von 1200 Fachbüchern in Braille-Schrift sicherzustellen. Diese Bücher sind für sehbehinderte und blinde Kinder in 56 Bildungseinrichtungen in der Ukraine bestimmt.'
@@ -38,20 +39,24 @@ const SlideSozialküche = () => {
   //   ]
   // };
   return (
-    <div className={css.slideBooksWrap}>
-      <div className={css.slideBooksImgWrap}>
+    <div className={css.slideWrap}>
+      <div className={css.slideImgWrap}>
         <img
-              src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1710253599/Sozialk%C3%BCchen_in_der_Ukraine_islrfp.jpg"
-              alt="Lebensmittel für Sozialküchen in der Ukraine"
+              src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1709746744/project-books-1_baqc22.jpg"
+              alt="Bücher für sehbehinderte Kinder"
               width="100%"
+              onError={(e) => {
+                e.target.onerror = null;
+                e.target.src = fallbackImageUrl;
+              }}
             />
         </div> 
-      <div className={css.slideBooksTextWrap}>
-        <h3 className={css.slideBooksTitle}>{title}</h3>
+      <div className={css.slideTextWrap}>
+        <h3 className={css.slideTitle}>{title}</h3>
         {/* <p className={css.slideBooksText}>{content}</p> */}
       </div>
     </div>
   );
 };
 
-export default SlideSozialküche;
+export default SlideBooks;

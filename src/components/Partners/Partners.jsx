@@ -10,10 +10,10 @@ const Partners = () => {
   const language = useSelector(state => state.language);
   const title =
     language === 'de'
-      ? 'Unsere Partner'
+      ? 'Unsere PARTNER'
       : language === 'en'
-      ? 'Our partners'
-      : 'Наші партнери';
+      ? 'Our PARTNERS'
+      : 'Наші ПАРТНЕРИ';
 
   return (
     <div className={css.partnersWrap}>

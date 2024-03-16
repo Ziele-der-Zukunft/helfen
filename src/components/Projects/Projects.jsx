@@ -1,18 +1,19 @@
-import SlideBooks from 'components/SlideBooks/SlideBooks.jsx';
+import SlideBooks from 'components/Projects/SlideBooks.jsx';
 import { useRef, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import css from './Projects.module.css';
-import SlideSozialküche from 'components/Sozialküche/Sozialküche.jsx';
+import SlideSozialküche from 'components/Projects/SlideSocialKitchens.jsx';
+import SlideHumanitarianАid from 'components/Projects/SlideHumanitarianАid.jsx';
 
 export const Projects = () => {
   const language = useSelector(state => state.language);
 
   const title =
     language === 'de'
-      ? 'Unsere Projekte'
+      ? 'Unsere PROJEKTE'
       : language === 'en'
-      ? 'Our Projects'
-      : 'Наші проєкти';
+      ? 'Our PROJECTS'
+      : 'Наші ПРОЄКТИ';
 
   const swiperElRef = useRef(null);
 
@@ -37,11 +38,9 @@ export const Projects = () => {
         ref={swiperElRef}
         breakpoints={
           JSON.stringify({
-            
-              100:{
-                  slidesPerView: 1,
-              },
-  
+              // 100:{
+              //     slidesPerView: 1,
+              // },
               640: {
                   slidesPerView: 2,
                   spaceBetween: 20,
@@ -71,7 +70,7 @@ export const Projects = () => {
           <SlideSozialküche/>
         </swiper-slide>
         <swiper-slide>
-          <SlideBooks/>
+          <SlideHumanitarianАid/>
         </swiper-slide>
         <swiper-slide>
           <SlideBooks/>
@@ -79,42 +78,6 @@ export const Projects = () => {
         <swiper-slide>
           <SlideBooks/>
         </swiper-slide>
-        {/* <swiper-slide>
-          <img
-            src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1691345107/cld-sample-3.jpg"
-            alt="text3"
-          />
-        </swiper-slide> */}
-        {/* <swiper-slide>
-          <img
-            src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1691345106/cld-sample-2.jpg"
-            alt="text4"
-          />
-        </swiper-slide> */}
-        {/* <swiper-slide>
-          <img
-            src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1691345106/cld-sample.jpg"
-            alt="text5"
-          />
-        </swiper-slide>
-        <swiper-slide>
-          <p>« Lorem ipsum dolor sit amet, consectetur adipisci elit, 
-            sed eiusmod tempor incidunt ut labore et dolore magna aliqua.»</p>
-          <ul>
-            <li>
-              <img
-                src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1691345079/sample.jpg"
-                alt="text6"
-              />
-            </li>
-            <li>
-              <img
-                src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1691345079/sample.jpg"
-                alt="text6"
-              />
-            </li>
-          </ul>
-        </swiper-slide> */}
       </swiper-container>
     </div>
   );

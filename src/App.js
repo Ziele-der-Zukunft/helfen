@@ -27,6 +27,10 @@ export default App;
 
 
 
+
+
+//---------------------------------------- useState & props
+
 // import "./App.css";
 // import Header from "./components/Header/Header.jsx";
 // import Hero from "./components/Hero/Hero.jsx";
