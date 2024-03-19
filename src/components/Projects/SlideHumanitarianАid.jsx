@@ -1,6 +1,6 @@
 import css from './Projects.module.css';
 import { useSelector } from 'react-redux';
-import fallbackImageUrl from "../../images/logo.jpg";
+import fallbackImageUrl from '../../images/logo.jpg';
 
 const SlideHumanitarianAid = () => {
   const language = useSelector(state => state.language);
@@ -11,23 +11,32 @@ const SlideHumanitarianAid = () => {
       : language === 'en'
       ? 'Humanitarian aid'
       : 'Гуманітарна допомога';
+  const description =
+    language === 'de'
+      ? 'Humanitäre Hilfeяяяяяяяяяяяяяяяя'
+      : language === 'en'
+      ? 'Humanitarian aidяяяяяяяяяяяяяяяяяяя'
+      : 'Гуманітарна допомогаяяяяяяяяяяяяяяяяяяяяяяя';
 
   return (
     <div className={css.slideWrap}>
       <div className={css.slideImgWrap}>
         <img
-              src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1709746744/project-books-1_baqc222.jpg"
-              alt="Humanitäre Hilfe"
-              width="100%"
-              onError={(e) => {
-                e.target.onerror = null;
-                e.target.src = fallbackImageUrl;
-              }}
-            />
-        </div> 
+          className={css.slideImg}
+          src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1710849960/Humanitarian_aid_5_accwqo.jpg"
+          alt="Humanitäre Hilfe"
+          width="100%"
+          onError={e => {
+            e.target.onerror = null;
+            e.target.src = fallbackImageUrl;
+          }}
+        />
+        <div className={css.overlay}>
+          <p className={css.slideDescription}>{description}</p>
+        </div>
+      </div>
       <div className={css.slideTextWrap}>
         <h3 className={css.slideTitle}>{title}</h3>
-        {/* <p className={css.slideBooksText}>{content}</p> */}
       </div>
     </div>
   );
