@@ -13,10 +13,10 @@ const SlideHumanitarianAid = () => {
       : 'Гуманітарна допомога';
   const description =
     language === 'de'
-      ? 'Humanitäre Hilfeяяяяяяяяяяяяяяяя'
+      ? 'Die Gemeinnützige Vereine „Ziele der Zukunft e.V“ überträgt humanitäre Hilfe an die Ukrainische Landsleute in Thüringen e.V. für die weitere Entsendung und den Transfer an bedürftige Bürger in den betroffenen Regionen Ukraine.'
       : language === 'en'
-      ? 'Humanitarian aidяяяяяяяяяяяяяяяяяяя'
-      : 'Гуманітарна допомогаяяяяяяяяяяяяяяяяяяяяяяя';
+      ? 'The non-profit organization "Ziele der Zukunft e.V" transfers humanitarian aid to the Ukrainische Landsleute in Thüringen e.V. for further dispatch and transfer to needy citizens in the affected regions of Ukraine.'
+      : 'Благодійна організація "Ziele der Zukunft e.V." передає гуманітарну допомогу Українському земляцтву в Тюринґені для подальшої відправки та передачі нужденним громадянам у постраждалих регіонах України.';
 
   return (
     <div className={css.slideWrap}>

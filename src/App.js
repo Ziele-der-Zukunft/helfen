@@ -6,6 +6,7 @@ import Partners from './components/Partners/Partners.jsx';
 import FaviconAndTitle from 'components/FaviconAndTitle/FaviconAndTitle.jsx';
 import { register } from 'swiper/element/bundle';
 import { Projects } from 'components/Projects/Projects.jsx';
+import Donations from 'components/Donations/Donations.jsx';
 
 register();
 
@@ -18,6 +19,7 @@ const App = () => {
       <Hero />
       <Projects />
       <Partners />
+      <Donations />
       <Footer />
       </>
   );

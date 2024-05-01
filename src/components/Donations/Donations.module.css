@@ -1,0 +1,71 @@
+.donationsWrap {
+  padding: 40px 20px;
+  /* color: #333; */
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media (min-width: 481px) {
+  .donationsWrap {
+    padding: 60px 35px;
+    gap: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .donationsWrap {
+    padding: 80px 60px;
+    gap: 70px;
+  }
+}
+
+.partnersTitle {
+  font-size: 24px;
+  text-align: center;
+}
+
+.donationsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+@media (min-width: 980px) {
+  .donationsList {
+    flex-direction: row;
+  }
+}
+.donationsListItem {
+  background-color: var(--bg-color-6);
+}
+.donationsListItem:nth-child(2) {
+  background-color: var(--color-secondary);
+}
+.donationPhotoWrap {
+  padding: 20px 20px 15px 20px;
+}
+@media (min-width: 980px) {
+  .donationPhotoWrap {
+    padding: 25px 25px 20px 25px;
+  }
+}
+.donationPhoto {
+  width: 100%;
+  max-width: 300px;
+}
+.donationsListTitle {
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: var(--text-color);
+  background-color: var(--bg-color-08);
+  border-bottom: 8px solid var(--accent-color);
+  max-width: 340px;
+}
+@media (min-width: 980px) {
+  .donationsListTitle {
+    padding: 20px;
+    max-width: 350px;
+  }
+}
