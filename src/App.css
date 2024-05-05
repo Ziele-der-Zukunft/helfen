@@ -9,12 +9,13 @@
   --swiper-scrollbar-drag-bg-color: #2ea3f2;
 
   --bg-color: #18252c;
-  --bg-color-08: rgb(24, 37, 44, 0.8);
   --bg-color-second: rgba(24, 37, 44, 0.71);
   --bg-color-third: #f4f4f4;
   --bg-color-4: rgba(0, 37, 68, 0.5);
   --bg-color-5: rgba(0, 37, 68, 0.7);
   --bg-color-6: rgba(255, 255, 255, 0.9);
+  --bg-color-7: rgb(37, 55, 64);
+  --bg-color-8: rgb(24, 37, 44, 0.8);
 }
 
 h1,

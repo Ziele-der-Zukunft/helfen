@@ -62,7 +62,7 @@ const Contacts = () => {
         <li className={css.contact}>{stadt}</li>
         <li className={css.contact}>
           {adresse}
-          <a className={css.emailLinks} href="https://www.google.com/maps/place/Kronenburggasse+7,+99084+Erfurt/@50.984321,11.0282117,3a,75y,278.16h,78.65t/data=!3m7!1e1!3m5!1s_7c7TFLGhpbIwAyxAMnBCQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3D_7c7TFLGhpbIwAyxAMnBCQ%26cb_client%3Dsearch.gws-prod.gps%26w%3D360%26h%3D120%26yaw%3D245.75061%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192!4m15!1m8!3m7!1s0x47a47299e9ce5435:0x7651116a84cce86d!2sKronenburggasse+7,+99084+Erfurt!3b1!8m2!3d50.9842841!4d11.0280831!16s%2Fg%2F11c225sghy!3m5!1s0x47a47299e9ce5435:0x7651116a84cce86d!8m2!3d50.9842841!4d11.0280831!16s%2Fg%2F11c225sghy?entry=ttu" target="_blank" rel="noopener noreferrer nofollow">
+          <a className={css.adresseLinks} href="https://www.google.com/maps/place/Kronenburggasse+7,+99084+Erfurt/@50.984321,11.0282117,3a,75y,278.16h,78.65t/data=!3m7!1e1!3m5!1s_7c7TFLGhpbIwAyxAMnBCQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3D_7c7TFLGhpbIwAyxAMnBCQ%26cb_client%3Dsearch.gws-prod.gps%26w%3D360%26h%3D120%26yaw%3D245.75061%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192!4m15!1m8!3m7!1s0x47a47299e9ce5435:0x7651116a84cce86d!2sKronenburggasse+7,+99084+Erfurt!3b1!8m2!3d50.9842841!4d11.0280831!16s%2Fg%2F11c225sghy!3m5!1s0x47a47299e9ce5435:0x7651116a84cce86d!8m2!3d50.9842841!4d11.0280831!16s%2Fg%2F11c225sghy?entry=ttu" target="_blank" rel="noopener noreferrer nofollow">
             {strasse}
           </a>
           </li>

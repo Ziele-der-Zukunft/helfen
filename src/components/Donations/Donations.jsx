@@ -24,43 +24,57 @@ const Donations = () => {
       : language === 'en'
       ? 'Equipment for a rehabilitation centre'
       : 'Обладнання для реабілітаційного центру';
+  const donate =
+    language === 'de'
+      ? 'Jetzt spenden'
+      : language === 'en'
+      ? 'Donate now'
+      : 'Пожертвувати зараз';
 
   return (
     <div className={css.donationsWrap}>
       <ul className={css.donationsList}>
         <li className={css.donationsListItem}>
           <div className={css.donationPhotoWrap}>
-            <img
-              src={photo1}
-              alt={wheels}
-              className={css.donationPhoto}
-            />
+            <img src={photo1} alt={wheels} className={css.donationPhoto} />
           </div>
           <h3 className={css.donationsListTitle}>{wheels}</h3>
+          <a
+            href="https://www.betterplace.org/de/projects/130144?utm_campaign=user_share&utm_medium=ppp_sticky&utm_source=Link"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className={css.donationLink}
+          >
+            {donate}
+          </a>
         </li>
         <li className={css.donationsListItem}>
           <div className={css.donationPhotoWrap}>
-            <img
-              src={photo2}
-              alt={food}
-              className={css.donationPhoto}
-            />
+            <img src={photo2} alt={food} className={css.donationPhoto} />
           </div>
-          <h3 className={css.donationsListTitle}>
-            {food}
-          </h3>
+          <h3 className={css.donationsListTitle}>{food}</h3>
+          <a
+            href="https://www.betterplace.org/de/projects/117908?utm_campaign=email-notifications&utm_medium=betterplace-org--p117908&utm_source=project_manager_notifier-project_activated_message"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className={css.donationLink}
+          >
+            {donate}
+          </a>
         </li>
         <li className={css.donationsListItem}>
           <div className={css.donationPhotoWrap}>
-            <img
-              src={photo3}
-              alt={equipment}
-              className={css.donationPhoto}
-            />
+            <img src={photo3} alt={equipment} className={css.donationPhoto} />
           </div>
-          <h3 className={css.donationsListTitle}>
-            {equipment}
-          </h3>
+          <h3 className={css.donationsListTitle}>{equipment}</h3>
+          <a
+            href="https://secure.betterplace.org/de/donate/platform/projects/131089"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className={css.donationLink}
+          >
+            {donate}
+          </a>
         </li>
       </ul>
     </div>

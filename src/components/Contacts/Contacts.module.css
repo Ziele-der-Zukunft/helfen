@@ -19,6 +19,7 @@
   margin-top: 3px;
 }
 
+.adresseLinks,
 .emailLinks,
 .phoneLinks {
   color: inherit;
@@ -27,6 +28,7 @@
   position: relative;
 }
 
+.adresseLinks::before,
 .emailLinks::before,
 .phoneLinks::before {
   content: '';
@@ -39,6 +41,7 @@
   transition: width 1500ms ease, background-color 1500ms ease;
 }
 
+.adresseLinks:hover::before,
 .emailLinks:hover::before,
 .phoneLinks:hover::before {
   background-color: var(--text-color);

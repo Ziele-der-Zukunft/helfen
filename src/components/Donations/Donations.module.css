@@ -59,7 +59,8 @@
   font-size: 16px;
   text-align: center;
   color: var(--text-color);
-  background-color: var(--bg-color-08);
+  background-color: var(--bg-color-7);
+  
   border-bottom: 8px solid var(--accent-color);
   max-width: 340px;
 }
@@ -68,4 +69,49 @@
     padding: 20px;
     max-width: 350px;
   }
+}
+
+.donationLink {
+  position: relative;
+  display: block;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-color);
+  background-color: var(--bg-color-8);
+  transition: color 1500ms ease;
+}
+.donationLink:hover {
+  cursor: pointer;
+  color: var(--accent-color);
+}
+
+.donationLink::before,
+.donationLink::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: var(--text-color);
+  transition: width 1500ms ease, background-color 1500ms ease;
+}
+
+.donationLink::before {
+  left: 0;
+  width: 0;
+}
+
+.donationLink::after {
+  right: 0;
+  width: 0;
+}
+
+.donationLink:hover::before,
+.donationLink:hover::after {
+  background-color: var(--accent-color);
+  width: 50%;
 }
