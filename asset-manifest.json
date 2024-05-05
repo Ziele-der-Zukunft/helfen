@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/helfen/static/css/main.06426500.css",
-    "main.js": "/helfen/static/js/main.0eeca2ec.js",
+    "main.css": "/helfen/static/css/main.d7116244.css",
+    "main.js": "/helfen/static/js/main.5d6dad86.js",
     "static/media/Hero.jpg": "/helfen/static/media/Hero.6511384d93389275e12a.jpg",
     "static/media/logo_bundesministerium_des_innern_und_fur_heimat.jpg": "/helfen/static/media/logo_bundesministerium_des_innern_und_fur_heimat.5c61ee2665e76f320ba9.jpg",
     "static/media/logo_house_of_resources.jpg": "/helfen/static/media/logo_house_of_resources.125b7ad03be6da2f19de.jpg",
@@ -14,11 +14,11 @@
     "static/media/food_for_the_social_kitchen_300x225.jpg": "/helfen/static/media/food_for_the_social_kitchen_300x225.631058ea9d77f3e67500.jpg",
     "static/media/ambulance_car_300x192.jpg": "/helfen/static/media/ambulance_car_300x192.a9449de8e456f54d27a2.jpg",
     "index.html": "/helfen/index.html",
-    "main.06426500.css.map": "/helfen/static/css/main.06426500.css.map",
-    "main.0eeca2ec.js.map": "/helfen/static/js/main.0eeca2ec.js.map"
+    "main.d7116244.css.map": "/helfen/static/css/main.d7116244.css.map",
+    "main.5d6dad86.js.map": "/helfen/static/js/main.5d6dad86.js.map"
   },
   "entrypoints": [
-    "static/css/main.06426500.css",
-    "static/js/main.0eeca2ec.js"
+    "static/css/main.d7116244.css",
+    "static/js/main.5d6dad86.js"
   ]
 }
