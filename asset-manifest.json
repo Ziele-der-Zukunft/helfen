@@ -1,24 +1,21 @@
 {
   "files": {
-    "main.css": "/helfen/static/css/main.d7116244.css",
-    "main.js": "/helfen/static/js/main.5d6dad86.js",
+    "main.css": "/helfen/static/css/main.d3c42f48.css",
+    "main.js": "/helfen/static/js/main.41018537.js",
     "static/media/Hero.jpg": "/helfen/static/media/Hero.6511384d93389275e12a.jpg",
     "static/media/logo_bundesministerium_des_innern_und_fur_heimat.jpg": "/helfen/static/media/logo_bundesministerium_des_innern_und_fur_heimat.5c61ee2665e76f320ba9.jpg",
     "static/media/logo_house_of_resources.jpg": "/helfen/static/media/logo_house_of_resources.125b7ad03be6da2f19de.jpg",
     "static/media/freistaat_thuringen.jpg": "/helfen/static/media/freistaat_thuringen.919d58387aaf4a1492ab.jpg",
     "static/media/logo_iqonex.jpg": "/helfen/static/media/logo_iqonex.fd20156a8770bd4283ce.jpg",
     "static/media/logo_securis.jpg": "/helfen/static/media/logo_securis.49257dd28c278a1d9932.jpg",
-    "static/media/icons.svg": "/helfen/static/media/icons.310295bc2085f5ba943c96eb5e9b7299.svg",
-    "static/media/equipment_for_a_rehabilitation_center_300x189.jpg": "/helfen/static/media/equipment_for_a_rehabilitation_center_300x189.7e57fe703681dda27f9c.jpg",
+    "static/media/icons.svg": "/helfen/static/media/icons.6e26f83d808160c7bdc2d199f0ed048f.svg",
     "static/media/logo.jpg": "/helfen/static/media/logo.fc1222c02c42715e31fa.jpg",
-    "static/media/food_for_the_social_kitchen_300x225.jpg": "/helfen/static/media/food_for_the_social_kitchen_300x225.631058ea9d77f3e67500.jpg",
-    "static/media/ambulance_car_300x192.jpg": "/helfen/static/media/ambulance_car_300x192.a9449de8e456f54d27a2.jpg",
     "index.html": "/helfen/index.html",
-    "main.d7116244.css.map": "/helfen/static/css/main.d7116244.css.map",
-    "main.5d6dad86.js.map": "/helfen/static/js/main.5d6dad86.js.map"
+    "main.d3c42f48.css.map": "/helfen/static/css/main.d3c42f48.css.map",
+    "main.41018537.js.map": "/helfen/static/js/main.41018537.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7116244.css",
-    "static/js/main.5d6dad86.js"
+    "static/css/main.d3c42f48.css",
+    "static/js/main.41018537.js"
   ]
 }
