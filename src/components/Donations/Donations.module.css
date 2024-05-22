@@ -35,23 +35,30 @@
   .donationsList {
     flex-direction: row;
     gap: 0;
+    align-items: start;
   }
 }
 .donationsListItem {
   background-color: var(--bg-color-6);
+  margin-top: 20px;
+  max-width: 350px;
+}
+@media (min-width: 980px) {
+  .donationsListItem {
+    width: 100%;
+    max-width: 360px;
+  }
 }
 .donationsListItem:nth-child(2) {
   background-color: var(--color-secondary);
+  margin-top: 0;
 }
 .donationPhotoWrap {
-  /* padding: 20px 20px 15px 20px; */
   padding: 25px 25px 20px 25px;
   overflow: hidden;
-  /* position: relative; */
 }
 @media (min-width: 980px) {
   .donationPhotoWrap {
-    /* padding: 25px 25px 20px 25px; */
     padding: 30px 30px 25px 30px;
   }
 }
@@ -72,14 +79,8 @@
   align-items: center;
   background-color: var(--bg-color-7);
   padding: 20px;
-  
-  max-width: 350px;
 }
-@media (min-width: 980px) {
-  .donationText {
-    max-width: 360px;
-  }
-}
+
 .donationTitle {
   font-size: 16px;
   text-align: center;
@@ -87,30 +88,25 @@
   width: 100%;
 }
 
-.iconDown{
+.iconDown {
   text-align: end;
   fill: var(--color-secondary);
   width: 20px;
 }
+.iconDown:hover {
+  cursor: pointer;
+}
 
-.donationDiscription{
+.donationDiscription {
   color: var(--text-color);
   background-color: var(--bg-color-7);
   padding: 10px 20px 20px 20px;
-  
-  max-width: 340px;
-}
-@media (min-width: 980px) {
-  .donationDiscription {
-    max-width: 350px;
-  }
 }
 
 .donationLink {
   position: relative;
   display: block;
   padding: 20px;
-  width: 100%;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -121,6 +117,7 @@
   border-top: 8px solid var(--accent-color);
   transition: color 1500ms ease;
 }
+
 .donationLink:hover {
   cursor: pointer;
   color: var(--accent-color);
