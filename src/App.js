@@ -1,35 +1,32 @@
 import './App.css';
-import Header from './components/Header/Header.jsx';
-import Hero from './components/Hero/Hero.jsx';
-import Footer from './components/Footer/Footer.jsx';
-import Partners from './components/Partners/Partners.jsx';
-import FaviconAndTitle from 'components/FaviconAndTitle/FaviconAndTitle.jsx';
 import { register } from 'swiper/element/bundle';
-import { Projects } from 'components/Projects/Projects.jsx';
-import Donations from 'components/Donations/Donations.jsx';
+import { Route, Routes } from 'react-router-dom';
+import HomePage from 'Pages/HomePage.jsx';
+import ProjectsPage from 'Pages/ProjectsPage.jsx';
+import DonationPage from 'Pages/DonationPage.jsx';
+import ContactPage from 'Pages/ContactPage.jsx';
+import NotFound from 'components/NotFound/NotFound.jsx';
+import SharedLayout from 'components/SharedLayout/SharedLayout.jsx';
 
 register();
 
 const App = () => {
-
   return (
     <>
-      <FaviconAndTitle />
-      <Header />
-      <Hero />
-      <Projects />
-      <Partners />
-      <Donations />
-      <Footer />
-      </>
+      <Routes>
+        <Route path="/" element={<SharedLayout />}>
+          <Route index element={<HomePage />} />
+          <Route path="projects" element={<ProjectsPage />} />
+          <Route path="donation" element={<DonationPage />} />
+          <Route path="contacts" element={<ContactPage />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </>
   );
 };
 
 export default App;
-
-
-
-
 
 //---------------------------------------- useState & props
 

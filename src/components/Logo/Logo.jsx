@@ -5,7 +5,7 @@ const Logo = () => {
   return (
       <div className={css.logoWrap}>
           <a
-            href="/helfen/"
+            href="/helfen"
             rel="noopener noreferrer nofollow"
             className={css.logoLink}
           >

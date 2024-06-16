@@ -40,9 +40,16 @@ const Partners = () => {
           <img
             src={logo4}
             alt="freistaat thuringen"
-            className={css.partnerLogo}
+            className={`${css.partnerLogo} ${css.additionalPartnerLogo}`}
           />
           <img src={logo5} alt="logo iqonex" className={css.partnerLogo} />
+        </li>
+        <li className={`${css.partnersListItem} ${css.additionalPartnersListItem}`}>
+          <img
+            src={logo4}
+            alt="freistaat thuringen"
+            className={css.partnerLogo}
+          />
         </li>
       </ul>
     </div>

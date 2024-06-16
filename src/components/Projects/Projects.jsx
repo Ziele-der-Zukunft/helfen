@@ -5,7 +5,7 @@ import css from './Projects.module.css';
 import SlideSozialküche from 'components/Projects/SlideSocialKitchens.jsx';
 import SlideHumanitarianАid from 'components/Projects/SlideHumanitarianАid.jsx';
 
-export const Projects = () => {
+const Projects = () => {
   const language = useSelector(state => state.language);
 
   const title =
@@ -82,3 +82,5 @@ export const Projects = () => {
     </div>
   );
 };
+
+export default Projects

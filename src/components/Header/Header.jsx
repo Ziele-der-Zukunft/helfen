@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import css from './Header.module.css';
 import Logo from '../Logo/Logo.jsx';
+import Navigation from 'components/Navigation/Navigation.jsx';
 import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher.jsx';
 import handleScroll from 'js/handleScroll.js';
 
-
 const Header = () => {
-  
   const [scrolled, setScrolled] = useState(false);
+  
   useEffect(() => {
     const cleanup = handleScroll(setScrolled);
     return cleanup;
@@ -16,6 +16,7 @@ const Header = () => {
   return (
     <div className={`${css.headerWrap} ${scrolled ? css.scrolled : ''}`}>
       <Logo />
+      <Navigation />
       <LanguageSwitcher />
     </div>
   );

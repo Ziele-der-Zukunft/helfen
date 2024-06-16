@@ -25,7 +25,6 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Ziele der Zukunft</title>
-
     <!-- Start Single Page Apps for GitHub Pages -->
     <script type="text/javascript">
       // Single Page Apps for GitHub Pages
@@ -41,12 +40,12 @@
       (function (l) {
         if (l.search[1] === '/') {
           var decoded = l.search
-            .slice(1)
-            .split('&')
-            .map(function (s) {
-              return s.replace(/~and~/g, '&');
-            })
-            .join('?');
+          .slice(1)
+          .split('&')
+          .map(function (s) {
+            return s.replace(/~and~/g, '&');
+          })
+          .join('?');
           window.history.replaceState(
             null,
             null,
@@ -54,8 +53,9 @@
           );
         }
       })(window.location);
-    </script>
+      </script>
     <!-- End Single Page Apps for GitHub Pages -->
+    <base href="/helfen/" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
