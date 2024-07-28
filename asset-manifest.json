@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/helfen/static/css/main.d4561d08.css",
-    "main.js": "/helfen/static/js/main.341154fb.js",
-    "static/media/Hero.jpg": "/helfen/static/media/Hero.6511384d93389275e12a.jpg",
-    "static/media/logo_bundesministerium_des_innern_und_fur_heimat.jpg": "/helfen/static/media/logo_bundesministerium_des_innern_und_fur_heimat.5c61ee2665e76f320ba9.jpg",
-    "static/media/logo_house_of_resources.jpg": "/helfen/static/media/logo_house_of_resources.125b7ad03be6da2f19de.jpg",
-    "static/media/freistaat_thuringen.jpg": "/helfen/static/media/freistaat_thuringen.919d58387aaf4a1492ab.jpg",
-    "static/media/logo_iqonex.jpg": "/helfen/static/media/logo_iqonex.fd20156a8770bd4283ce.jpg",
-    "static/media/logo_securis.jpg": "/helfen/static/media/logo_securis.49257dd28c278a1d9932.jpg",
+    "main.css": "/helfen/static/css/main.5cbc0c9b.css",
+    "main.js": "/helfen/static/js/main.079e5a73.js",
+    "static/media/Demonstration zur Unterstützung der Ukraine.webp": "/helfen/static/media/Demonstration zur Unterstützung der Ukraine.ccadc3dbbc36bbd318fc.webp",
+    "static/media/logo_house_of_resources_thüringen.webp": "/helfen/static/media/logo_house_of_resources_thüringen.5274db4120cd6fe4f4c6.webp",
+    "static/media/logo_bundesministerium_des_innern_und_fur_heimat.webp": "/helfen/static/media/logo_bundesministerium_des_innern_und_fur_heimat.4e0743030d38c083af08.webp",
+    "static/media/logo_beauftragte_für_integration,_migration_und_flüchtlinge.webp": "/helfen/static/media/logo_beauftragte_für_integration,_migration_und_flüchtlinge.8e245beb15be42da82f9.webp",
     "static/media/icons.svg": "/helfen/static/media/icons.6e26f83d808160c7bdc2d199f0ed048f.svg",
-    "static/media/logo.jpg": "/helfen/static/media/logo.fc1222c02c42715e31fa.jpg",
+    "static/media/logo_sekuris.webp": "/helfen/static/media/logo_sekuris.e136518cea031e0ebee3.webp",
+    "static/media/logo_iqonex.webp": "/helfen/static/media/logo_iqonex.0d9fa15a2e3b3803dec9.webp",
+    "static/media/logo.webp": "/helfen/static/media/logo.b9eeae2797e5a1236b82.webp",
     "index.html": "/helfen/index.html",
-    "main.d4561d08.css.map": "/helfen/static/css/main.d4561d08.css.map",
-    "main.341154fb.js.map": "/helfen/static/js/main.341154fb.js.map"
+    "main.5cbc0c9b.css.map": "/helfen/static/css/main.5cbc0c9b.css.map",
+    "main.079e5a73.js.map": "/helfen/static/js/main.079e5a73.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4561d08.css",
-    "static/js/main.341154fb.js"
+    "static/css/main.5cbc0c9b.css",
+    "static/js/main.079e5a73.js"
   ]
 }
