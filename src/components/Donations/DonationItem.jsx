@@ -14,7 +14,7 @@ const DonationItem = ({
   return (
     <li className={css.donationsListItem}>
       <div className={css.donationPhotoWrap}>
-        <img src={photo} alt={title} className={css.donationPhoto} />
+        <img src={photo} alt={title[language]} className={css.donationPhoto} />
       </div>
       <div className={css.donationText}>
         <h3 className={css.donationTitle}>{title[language]}</h3>

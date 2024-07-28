@@ -1,5 +1,5 @@
 import css from './Hero.module.css';
-import heroImg from '../../images/Hero.jpg';
+import heroImg from '../../images/Demonstration zur Unterstützung der Ukraine.webp';
 import { useSelector } from 'react-redux';
 
 const Hero = () => {
@@ -26,7 +26,7 @@ const Hero = () => {
         <p className={css.heroText}>{content}</p>
       </div>
       <div className={css.heroImgWrap}>
-        <img src={heroImg} alt="Ukrainians with a flag" width="100%" />
+        <img src={heroImg} alt="Demonstration zur Unterstützung der Ukraine" width="100%" />
       </div>
     </div>
   );

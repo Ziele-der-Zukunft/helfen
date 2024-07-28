@@ -1,5 +1,5 @@
 import css from "./Logo.module.css"
-import logo from '../../images/logo.jpg'
+import logo from '../../images/logo.webp'
 
 const Logo = () => {
   return (
@@ -9,7 +9,7 @@ const Logo = () => {
             rel="noopener noreferrer nofollow"
             className={css.logoLink}
           >
-            <img src={logo} alt="logo" className={css.logoImg}/>
+            <img src={logo} alt="logo Ziele der Zukunft" className={css.logoImg}/>
           </a>              
       </div>
   )}

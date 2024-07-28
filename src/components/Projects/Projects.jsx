@@ -3,7 +3,7 @@ import { useRef, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import css from './Projects.module.css';
 import SlideSozialküche from 'components/Projects/SlideSocialKitchens.jsx';
-import SlideHumanitarianАid from 'components/Projects/SlideHumanitarianАid.jsx';
+import SlideHumanitarianAid from 'components/Projects/SlideHumanitarianAid.jsx';
 
 const Projects = () => {
   const language = useSelector(state => state.language);
@@ -70,7 +70,7 @@ const Projects = () => {
           <SlideSozialküche/>
         </swiper-slide>
         <swiper-slide>
-          <SlideHumanitarianАid/>
+          <SlideHumanitarianAid/>
         </swiper-slide>
         <swiper-slide>
           <SlideBooks/>

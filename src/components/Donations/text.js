@@ -1,6 +1,6 @@
 const text = [
     {
-      "photo": "https://res.cloudinary.com/dqmpdikvc/image/upload/v1715469925/ambulance_car_300x192_cxfgfc.jpg",
+      "photo": "https://res.cloudinary.com/dqmpdikvc/image/upload/v1722022804/Notarztwagen-300x192_akk1ao.webp",
       "title": {
         "de": "Räder für Krankenwagen in der Ukraine",
         "en": "Wheels for ambulances in Ukraine",
@@ -21,7 +21,7 @@ const text = [
       }
     },
     {
-      "photo": "https://res.cloudinary.com/dqmpdikvc/image/upload/v1715469925/food_for_the_social_kitchen_300x225_agbmfn.jpg",
+      "photo": "https://res.cloudinary.com/dqmpdikvc/image/upload/v1722022805/Sozialkuechen-in-der-Ukraine-300%D1%85225_w6eksl.webp",
       "title": {
         "de": "Lebensmittel für Sozialküchen",
         "en": "Food for social kitchens",
@@ -42,7 +42,7 @@ const text = [
       }
     },
     {
-      "photo": "https://res.cloudinary.com/dqmpdikvc/image/upload/v1715469925/equipment_for_a_rehabilitation_center_300x189_phuxac.jpg",
+      "photo": "https://res.cloudinary.com/dqmpdikvc/image/upload/v1722022805/Rehabilitationszentrum-300x189_kkuyjr.webp",
       "title": {
         "de": "Geräte für ein Rehabilitationszentrum",
         "en": "Equipment for a rehabilitation centre",

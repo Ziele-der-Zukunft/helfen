@@ -1,6 +1,6 @@
 import css from './Projects.module.css';
 import { useSelector } from 'react-redux';
-import fallbackImageUrl from '../../images/logo.jpg';
+import fallbackImageUrl from '../../images/logo.webp';
 
 const SlideSocialKitchens = () => {
   const language = useSelector(state => state.language);
@@ -23,8 +23,8 @@ const SlideSocialKitchens = () => {
       <div className={css.slideImgWrap}>
         <img
           className={css.slideImg}
-          src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1710253599/Sozialk%C3%BCchen_in_der_Ukraine_islrfp.jpg"
-          alt="Lebensmittel für Sozialküchen in der Ukraine"
+          src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1722024007/Sozialk%C3%BCchen_in_der_Ukraine_devqqb.webp"
+          alt={title}
           width="100%"
           onError={e => {
             e.target.onerror = null;

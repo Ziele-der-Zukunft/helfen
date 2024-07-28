@@ -3,9 +3,9 @@
 }
 @media (min-width: 768px) {
   .languageList {
+    display: flex;
     margin: 0;
     padding: 10px 0 10px;
-    display: flex;
     justify-content: center;
     gap: 10px;
   }

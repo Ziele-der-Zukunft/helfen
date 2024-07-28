@@ -50,26 +50,39 @@
   }
 }
 .donationsListItem:nth-child(2) {
-  background-color: var(--color-secondary);
   margin-top: 0;
 }
+
 .donationPhotoWrap {
-  padding: 25px 25px 20px 25px;
+  position: relative;
   overflow: hidden;
 }
-@media (min-width: 980px) {
-  .donationPhotoWrap {
-    padding: 30px 30px 25px 30px;
-  }
-}
-.donationPhoto {
-  width: 100%;
-  max-width: 300px;
-  transition: transform 1000ms ease;
+
+/* Псевдоелементи для бордюрів */
+.donationPhotoWrap::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 25px solid var(--bg-color-6);
+  transition: border-width 1500ms ease;
+  pointer-events: none;
 }
 
-.donationPhotoWrap:hover .donationPhoto {
-  transform: scale(1.2);
+.donationsListItem:nth-child(2) .donationPhotoWrap::before {
+  border-color: var(--color-secondary); /* Інший колір бордюру для другого елемента */
+}
+
+/* Ефект при ховері */
+.donationPhotoWrap:hover::before {
+  border-width: 3px;
+}
+
+.donationPhoto {
+  width: 100%;
+  display: block;
 }
 
 .donationText {

@@ -1,6 +1,6 @@
 import css from './Projects.module.css';
 import { useSelector } from 'react-redux';
-import fallbackImageUrl from '../../images/logo.jpg';
+import fallbackImageUrl from '../../images/logo.webp';
 
 const SlideHumanitarianAid = () => {
   const language = useSelector(state => state.language);
@@ -23,8 +23,8 @@ const SlideHumanitarianAid = () => {
       <div className={css.slideImgWrap}>
         <img
           className={css.slideImg}
-          src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1710849960/Humanitarian_aid_5_accwqo.jpg"
-          alt="Humanitäre Hilfe"
+          src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1722028840/Humanitarian_aid_5_einhu3.webp"
+          alt={title}
           width="100%"
           onError={e => {
             e.target.onerror = null;

@@ -1,6 +1,6 @@
 import css from './Projects.module.css';
 import { useSelector } from 'react-redux';
-import fallbackImageUrl from '../../images/logo.jpg';
+import fallbackImageUrl from '../../images/logo.webp';
 
 const SlideBooks = () => {
   const language = useSelector(state => state.language);
@@ -43,8 +43,8 @@ const SlideBooks = () => {
       <div className={css.slideImgWrap}>
         <img
           className={css.slideImg}
-          src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1709746744/project-books-1_baqc22.jpg"
-          alt="Bücher für sehbehinderte Kinder"
+          src="https://res.cloudinary.com/dqmpdikvc/image/upload/v1722025893/project-books-1_p14g2u.webp"
+          alt={title}
           width="100%"
           onError={e => {
             e.target.onerror = null;

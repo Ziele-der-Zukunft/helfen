@@ -1,3 +1,42 @@
+import css from './Donations.module.css';
+import { useState } from 'react';
+import text from './text.js';
+import DonationItem from './DonationItem.jsx';
+
+
+const Donations = () => {
+
+  const [activeIndexes, setActiveIndexes] = useState(Array(text.length).fill(false));
+
+  const toggleTextVisibility = i => {
+    setActiveIndexes(prevIndexes => {
+      const newIndexes = [...prevIndexes];
+      newIndexes[i] = !newIndexes[i];
+      return newIndexes;
+    });
+  };
+
+  return (
+    <div className={css.donationsWrap}>
+      <ul className={css.donationsList}>
+      {text.map((t, i) => (
+          <DonationItem
+            key={i}
+            text={t}
+            isActive={activeIndexes[i]}
+            toggleTextVisibility={() => toggleTextVisibility(i)}
+          />
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default Donations;
+
+
+
+
 // import { useSelector } from 'react-redux';
 // import css from './Donations.module.css';
 // import photo1 from '../../images/ambulance_car_300x192.jpg';
@@ -162,38 +201,3 @@
 
 // import { useSelector } from 'react-redux';
 // import sprite from '../../images/icons.svg';
-import css from './Donations.module.css';
-import { useState } from 'react';
-import text from './text.js';
-import DonationItem from './DonationItem.jsx';
-
-
-const Donations = () => {
-
-  const [activeIndexes, setActiveIndexes] = useState(Array(text.length).fill(false));
-
-  const toggleTextVisibility = i => {
-    setActiveIndexes(prevIndexes => {
-      const newIndexes = [...prevIndexes];
-      newIndexes[i] = !newIndexes[i];
-      return newIndexes;
-    });
-  };
-
-  return (
-    <div className={css.donationsWrap}>
-      <ul className={css.donationsList}>
-      {text.map((t, i) => (
-          <DonationItem
-            key={i}
-            text={t}
-            isActive={activeIndexes[i]}
-            toggleTextVisibility={() => toggleTextVisibility(i)}
-          />
-        ))}
-      </ul>
-    </div>
-  );
-};
-
-export default Donations;
