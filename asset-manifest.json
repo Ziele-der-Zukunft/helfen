@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/helfen/static/css/main.5cbc0c9b.css",
-    "main.js": "/helfen/static/js/main.079e5a73.js",
+    "main.css": "/helfen/static/css/main.a66cb190.css",
+    "main.js": "/helfen/static/js/main.d964a535.js",
     "static/media/Demonstration zur Unterstützung der Ukraine.webp": "/helfen/static/media/Demonstration zur Unterstützung der Ukraine.ccadc3dbbc36bbd318fc.webp",
     "static/media/logo_house_of_resources_thüringen.webp": "/helfen/static/media/logo_house_of_resources_thüringen.5274db4120cd6fe4f4c6.webp",
     "static/media/logo_bundesministerium_des_innern_und_fur_heimat.webp": "/helfen/static/media/logo_bundesministerium_des_innern_und_fur_heimat.4e0743030d38c083af08.webp",
@@ -11,11 +11,11 @@
     "static/media/logo_iqonex.webp": "/helfen/static/media/logo_iqonex.0d9fa15a2e3b3803dec9.webp",
     "static/media/logo.webp": "/helfen/static/media/logo.b9eeae2797e5a1236b82.webp",
     "index.html": "/helfen/index.html",
-    "main.5cbc0c9b.css.map": "/helfen/static/css/main.5cbc0c9b.css.map",
-    "main.079e5a73.js.map": "/helfen/static/js/main.079e5a73.js.map"
+    "main.a66cb190.css.map": "/helfen/static/css/main.a66cb190.css.map",
+    "main.d964a535.js.map": "/helfen/static/js/main.d964a535.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cbc0c9b.css",
-    "static/js/main.079e5a73.js"
+    "static/css/main.a66cb190.css",
+    "static/js/main.d964a535.js"
   ]
 }
