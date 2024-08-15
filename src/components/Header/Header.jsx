@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { useSelector } from 'react-redux';
 import css from './Header.module.css';
 import Logo from '../Logo/Logo.jsx';
 import Navigation from 'components/Navigation/Navigation.jsx';
@@ -8,22 +9,21 @@ import useOverflowDetection from 'hooks/useOverflowDetection';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
-  const [isOverflowing, setIsOverflowing] = useState(false);
-  const [overflowAmount, setOverflowAmount] = useState(0);
   const [freeSpace, setFreeSpace] = useState(0);
   const headerRef = useRef(null);
+  const language = useSelector((state) => state.language);
 
   useEffect(() => {
     const cleanup = handleScroll(setScrolled);
     return cleanup;
   }, []);
 
-  useOverflowDetection(headerRef, setIsOverflowing, setOverflowAmount, setFreeSpace);
+  useOverflowDetection(headerRef, setFreeSpace, language);
 
   return (
     <div ref={headerRef} className={`${css.headerWrap} ${scrolled ? css.scrolled : ''}`}>
       <Logo />
-      <Navigation isOverflowing={isOverflowing} overflowAmount={overflowAmount} freeSpace={freeSpace} />
+      <Navigation freeSpace={freeSpace} />
       <LanguageSwitcher />
     </div>
   );
